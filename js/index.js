@@ -25,6 +25,7 @@ var style = document.createElement('style');
 style.textContent = `
     #layout{
         overflow: hidden;
+        padding-top:40px;
     }
     .show{
         display: block;
