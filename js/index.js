@@ -1,4 +1,6 @@
 const tips = document.querySelector('#tips');
+let tips_event_handler = null;
+
 const shadowHost = document.querySelector('#host');
 const shadowRoot = shadowHost.attachShadow({ mode: 'closed' });
 const link = document.createElement('link')
@@ -190,12 +192,17 @@ chapters.forEach(chapter=>{
 
         wordDiv.addEventListener('mousedown',async (event) => {
             navigator.clipboard.writeText(word)
-            setTimeout(() => {
-                tips.style['display'] = 'block'
+            if(!tips_event_handler){
+
+                tips_event_handler = setTimeout(() => {
+                    tips.style['display'] = 'block'
+                }, "1000")
+                
                 setTimeout(() => {
-                    tips.style['display'] = 'none'
-                },'1500')
-            }, "1000")
+                    tips.style['display'] = 'none';
+                    tips_event_handler= null
+                },'2500')
+            }
         });
         chapterDiv.appendChild(wordDiv)
     })
