@@ -46,6 +46,7 @@ style.textContent = `
         background: #d1d67c;
         border-radius: 10px;
         font-size:22px;
+        color:#000;
     }
 
     .block:active {
@@ -61,6 +62,7 @@ style.textContent = `
         z-index:22;
     }
     .block:active .note{
+        color:#000;
         display: block;
         padding:20px;
         margin-left:20px;
@@ -96,14 +98,19 @@ style.textContent = `
         cursor:pointer;
     }
     #menu-button{
-        background-color:red;
+        background-color:#df7373;
         position:fixed;
         width:60px;
         height:60px;
+        border-radius:30px;
         z-index:33;
         cursor:pointer;
         right:50px;
         display:none;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        
     }
     .open{
         margin-left:0px !important;
@@ -111,8 +118,9 @@ style.textContent = `
 
     @media (max-width: 800px) {
         #menu-button{
-            display:block;
+            display: flex;
         }
+        #menu:
     }
 `
 
@@ -188,6 +196,8 @@ chapters.forEach(chapter=>{
         const _show = main.querySelector('.show')
         _show&&_show.classList.replace('show','word-item')
         main.querySelector('#'+event.target.attributes['for'].value).classList.replace('word-item','show')
+        window.scrollTo(0,0) 
+        menu.classList.contains('open') && menu.classList.remove('open')
       }, false);
     pure_menu_list.appendChild(pure_menu_item)
 })
@@ -195,6 +205,7 @@ chapters.forEach(chapter=>{
 
 var menubtn = document.createElement('div');
 menubtn.id = "menu-button"
+menubtn.innerText = 'W';
 menubtn.addEventListener("click",function(e){
     menu.classList.contains('open')?menu.classList.remove('open'):menu.classList.add('open')
 })
