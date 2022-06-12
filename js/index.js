@@ -26,6 +26,7 @@ style.textContent = `
     #layout{
         overflow: hidden;
         padding-top:40px;
+        padding-bottom:50px;
     }
     .show{
         display: block;
@@ -47,6 +48,7 @@ style.textContent = `
         border-radius: 10px;
         font-size:22px;
         color:#000;
+        cursor:pointer;
     }
 
     .block:active {
@@ -114,6 +116,16 @@ style.textContent = `
     }
     .open{
         margin-left:0px !important;
+    }
+    .pure-menu-item{
+        color:aquamarine;
+    }
+    .pure-menu-item:hover{
+        color:#111;
+    }
+    .pure-menu-item.selected{
+        background: #7b0d0d;
+        color: #ccc;
     }
 
     @media (max-width: 800px) {
@@ -191,9 +203,17 @@ chapters.forEach((chapter,i)=>{
     pure_menu_item.setAttribute('for',_chapter)
     
     pure_menu_item.innerText = chapter.match(/CHAPTER \d+/)[0]
-    i == 0 &&  main.querySelector('#'+_chapter).classList.replace('word-item','show')
+    if(i == 0){
+        main.querySelector('#'+_chapter).classList.replace('word-item','show')
+        pure_menu_item.classList.add('selected')
+    }
+    
     pure_menu_item.addEventListener("click", function( event ) {
         const _show = main.querySelector('.show')
+        const parent = event.target.parent;
+        pure_menu_list.querySelector('.selected').classList.remove('selected')
+        event.target.classList.add('selected')
+
         _show&&_show.classList.replace('show','word-item')
 
         main.querySelector('#'+event.target.attributes['for'].value).classList.replace('word-item','show')
