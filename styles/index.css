@@ -11,3 +11,12 @@ html,body{
     background-color: rgb(32, 63, 19);
     color: antiquewhite;
 }
+
+#tips {
+    position: fixed;
+    left: 30%;
+    top:50px;
+    height: 30px;
+    width: 70px;
+    display: none;
+}

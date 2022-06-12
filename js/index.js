@@ -1,4 +1,4 @@
-
+const tips = document.querySelector('#tips');
 const shadowHost = document.querySelector('#host');
 const shadowRoot = shadowHost.attachShadow({ mode: 'closed' });
 const link = document.createElement('link')
@@ -187,6 +187,15 @@ chapters.forEach(chapter=>{
         <div class="pure-u-18-24 note">${note_br(note)||word}</div>
         ` 
         wordDiv.innerHTML = html
+
+        wordDiv.addEventListener('dblclick',async (event) => {
+            navigator.clipboard.writeText(word)
+            console.log(tips)
+            tips.style['display'] = 'block'
+            setTimeout(() => {
+                tips.style['display'] = 'none'
+            }, "1000")
+        });
         chapterDiv.appendChild(wordDiv)
     })
     main.appendChild(chapterDiv)
