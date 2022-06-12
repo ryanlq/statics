@@ -188,12 +188,13 @@ chapters.forEach(chapter=>{
         ` 
         wordDiv.innerHTML = html
 
-        wordDiv.addEventListener('dblclick',async (event) => {
+        wordDiv.addEventListener('mousedown',async (event) => {
             navigator.clipboard.writeText(word)
-            console.log(tips)
-            tips.style['display'] = 'block'
             setTimeout(() => {
-                tips.style['display'] = 'none'
+                tips.style['display'] = 'block'
+                setTimeout(() => {
+                    tips.style['display'] = 'none'
+                },'1500')
             }, "1000")
         });
         chapterDiv.appendChild(wordDiv)
