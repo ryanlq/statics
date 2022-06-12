@@ -221,13 +221,11 @@ chapters.forEach(chapter=>{
         querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
-            dict_frame.src = "https://m.iciba.com/word?w="+word
-            test.innerText = dict_frame.src
+            dict_frame.src = "https://m.youdao.com/dict?le=eng&q="+word
             if(!frame.classList.contains('dict_show')){
                 frame.classList.add('dict_show')
             }
         })
-        buttons.appendChild(querybtn)
 
         const copybtn = document.createElement('div');
         copybtn.id = "word-copy"
@@ -241,6 +239,7 @@ chapters.forEach(chapter=>{
             },'1500')
         })
         buttons.appendChild(copybtn)
+        buttons.appendChild(querybtn)
 
         wordDiv.appendChild(buttons)
         chapterDiv.appendChild(wordDiv)
