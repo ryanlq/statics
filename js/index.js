@@ -132,16 +132,26 @@ style.textContent = `
         color: #ccc;
     }
     #word-btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
         margin: auto;
-        color: red;
         visibility: hidden;
         position: absolute;
         right: 0;
         padding-top: 20px;
         cursor:pointer;
+        
     }
-    #word-btns:hover{
+    #word-query:hover,#word-copy:hover{
         font-weight:bolder;
+
+    }
+    #word-query{
+        color: red;
+    }
+    #word-copy{
+        color: blue;
     }
     @media (max-width: 800px) {
         #menu-button{
@@ -198,31 +208,17 @@ chapters.forEach(chapter=>{
         wordDiv.classList.add("pure-g",'block')
         const html = `
         <div class="pure-u-2-24 ${color} color-wraper"></div>
-        <div class="pure-u-16-24 word">${word}</div>
-        <div class="pure-u-16-24 note">${note_br(note)||word}</div>
+        <div class="pure-u-14-24 word">${word}</div>
+        <div class="pure-u-14-24 note">${note_br(note)||word}</div>
         ` 
         wordDiv.innerHTML = html
-
-        wordDiv.addEventListener('mousedown',async (event) => {
-            navigator.clipboard.writeText(word)
-            if(!tips_event_handler){
-
-                tips_event_handler = setTimeout(() => {
-                    tips.style['display'] = 'block'
-                }, "2000")
-                
-                setTimeout(() => {
-                    tips.style['display'] = 'none';
-                    tips_event_handler= null
-                },'3500')
-            }
-        });
 
 
         const buttons = document.createElement('div');
         buttons.id = "word-btns"
-        buttons.classList.add('pure-u-4-24')
+        buttons.classList.add('pure-u-6-24')
         const querybtn = document.createElement('div');
+        querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
             dict_frame.src = "https://www.iciba.com/word?w="+word
@@ -231,6 +227,20 @@ chapters.forEach(chapter=>{
             }
         })
         buttons.appendChild(querybtn)
+
+        const copybtn = document.createElement('div');
+        copybtn.id = "word-copy"
+        copybtn.innerText = "复制"
+        copybtn.addEventListener('click',function(e){
+            navigator.clipboard.writeText(word)
+            tips.style['display'] = 'block'
+            setTimeout(() => {
+                tips.style['display'] = 'none';
+                tips_event_handler= null
+            },'1500')
+        })
+        buttons.appendChild(copybtn)
+
         wordDiv.appendChild(buttons)
         chapterDiv.appendChild(wordDiv)
     })
