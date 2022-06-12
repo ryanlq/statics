@@ -221,7 +221,7 @@ chapters.forEach(chapter=>{
         querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
-            dict_frame.src = "https://www.iciba.com/word?w="+word
+            dict_frame.src = "https://m.iciba.com/word?w="+word
             if(!frame.classList.contains('dict_show')){
                 frame.classList.add('dict_show')
             }
