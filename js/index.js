@@ -183,7 +183,7 @@ chapters.forEach(chapter=>{
 
 })
 
-chapters.forEach(chapter=>{
+chapters.forEach((chapter,i)=>{
     const _chapter = chapter.replace(/ /g,'_')
     const pure_menu_item = document.createElement('li');
     
@@ -191,10 +191,11 @@ chapters.forEach(chapter=>{
     pure_menu_item.setAttribute('for',_chapter)
     
     pure_menu_item.innerText = chapter.match(/CHAPTER \d+/)[0]
+    i == 0 &&  main.querySelector('#'+_chapter).classList.replace('word-item','show')
     pure_menu_item.addEventListener("click", function( event ) {
-        console.log(event.target)
         const _show = main.querySelector('.show')
         _show&&_show.classList.replace('show','word-item')
+
         main.querySelector('#'+event.target.attributes['for'].value).classList.replace('word-item','show')
         window.scrollTo(0,0) 
         menu.classList.contains('open') && menu.classList.remove('open')

@@ -1,5 +1,13 @@
-body{
+html,body{
     user-select:none;
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    -khtml-user-select:none;/*早期浏览器*/
+    -webkit-touch-callout:none ;
+    -webkit-text-size-adjust:none ;
+    -webkit-tap-highlight-color:transparent ;
+    -webkit-user-select:none ;
     background-color: rgb(32, 63, 19);
     color: antiquewhite;
 }
