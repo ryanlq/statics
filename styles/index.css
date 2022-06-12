@@ -94,10 +94,11 @@ html,body{
         position:absolute;
         top: 0;
         right: 0;
-        margin: 30px;
+        margin: 20px 70px 0px 10px;
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 99;
     
     }
     #external_dict{
