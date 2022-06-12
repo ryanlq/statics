@@ -52,7 +52,9 @@ style.textContent = `
         color:#000;
         cursor:pointer;
     }
-
+    .block:hover #word-btns{
+        visibility: visible;
+    }
     .block:active {
         cursor: pointer;
     }
@@ -129,7 +131,18 @@ style.textContent = `
         background: #7b0d0d;
         color: #ccc;
     }
-
+    #word-btns{
+        margin: auto;
+        color: red;
+        visibility: hidden;
+        position: absolute;
+        right: 0;
+        padding-top: 20px;
+        cursor:pointer;
+    }
+    #word-btns:hover{
+        font-weight:bolder;
+    }
     @media (max-width: 800px) {
         #menu-button{
             display: flex;
@@ -185,8 +198,8 @@ chapters.forEach(chapter=>{
         wordDiv.classList.add("pure-g",'block')
         const html = `
         <div class="pure-u-2-24 ${color} color-wraper"></div>
-        <div class="pure-u-18-24 word">${word}</div>
-        <div class="pure-u-18-24 note">${note_br(note)||word}</div>
+        <div class="pure-u-16-24 word">${word}</div>
+        <div class="pure-u-16-24 note">${note_br(note)||word}</div>
         ` 
         wordDiv.innerHTML = html
 
@@ -196,14 +209,29 @@ chapters.forEach(chapter=>{
 
                 tips_event_handler = setTimeout(() => {
                     tips.style['display'] = 'block'
-                }, "1000")
+                }, "2000")
                 
                 setTimeout(() => {
                     tips.style['display'] = 'none';
                     tips_event_handler= null
-                },'2500')
+                },'3500')
             }
         });
+
+
+        const buttons = document.createElement('div');
+        buttons.id = "word-btns"
+        buttons.classList.add('pure-u-4-24')
+        const querybtn = document.createElement('div');
+        querybtn.innerText = "查询"
+        querybtn.addEventListener('click',function(e){
+            dict_frame.src = "https://www.iciba.com/word?w="+word
+            if(!frame.classList.contains('dict_show')){
+                frame.classList.add('dict_show')
+            }
+        })
+        buttons.appendChild(querybtn)
+        wordDiv.appendChild(buttons)
         chapterDiv.appendChild(wordDiv)
     })
     main.appendChild(chapterDiv)
