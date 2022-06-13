@@ -1,5 +1,5 @@
 const tips = document.querySelector('#tips');
-const britannica_url = "https://www.britannica.com/dictionary/"
+const eudic_url = "https://dict.eudic.net/mdicts/en/"
 const youdao_url = "https://m.youdao.com/dict?le=eng&q="
 let tips_event_handler = null;
 
@@ -197,11 +197,9 @@ const pure_menu_list = document.createElement('ul');
 pure_menu.classList.add('pure-menu')
 pure_menu_list.classList.add('pure-menu-list')
 
+
 chapters.forEach(chapter=>{
     const _chapter = chapter.replace(/ /g,'_')
-
-
-
     const chapterDiv = document.createElement('div');
     chapterDiv.id=_chapter
     chapterDiv.classList.add('pure-u-1','word-item')
@@ -216,61 +214,39 @@ chapters.forEach(chapter=>{
         ` 
         wordDiv.innerHTML = html
         //长按单词正面
-        let x1 = x2 = 0;
         const front = wordDiv.querySelector('#word-front')
         const backside = wordDiv.querySelector('#word-back')
-
-        front.addEventListener('touchstart',function(e){
-            x1 = e.x
-        })
-        front.addEventListener('touchend',function(e){
-            x2 = e.x
-            if ((x2 - x1) >  150){
-                x1 = x2 = 0;
-                wordDiv.classList.add('backside')
-            }
-        })
-
-        backside.addEventListener('touchstart',function(e){
-            x1 = e.x;
-        })
-      
-        backside.addEventListener('touchend',function(e){
-            x2 = e.x
-            if ((x2 - x1) < 150){
-                x1 = x2 = 0;
-                wordDiv.classList.remove('backside')
-            }
-        })
-
-        front.addEventListener('mousedown',function(e){
-            x1 = e.x
-        })
-    
-        front.addEventListener('mouseup',function(e){
-            
-            x2 = e.x
-            if ((x2 - x1) >  150){
-                x1 = x2 = 0;
-                wordDiv.classList.add('backside')
-            }
-        })
         
-        backside.addEventListener('mousedown',function(e){
-            x1 = e.x;
-        })
-      
-        backside.addEventListener('mouseup',function(e){
-            x2 = e.x
-            if ((x2 - x1) < 150){
-                x1 = x2 = 0;
-                wordDiv.classList.remove('backside')
-            }
-        })
+        let x1 = x2 = 0;
 
-        backside.addEventListener('mouseleave',function(e){
-            wordDiv.classList.remove('backside')
-        })
+        function mousedown_handler(e){
+            if(isMobie){
+                const backsideElement = chapterDiv.querySelector('.backside')
+                backsideElement && backsideElement.classList.remove('backside')
+            }
+            x1 = e.x || e.touches[0].clientX
+            
+        }
+        function mouseup_handler(e){
+            x2 = e.x || e.changedTouches[0].clientX
+            return (x2 - x1) 
+
+        }
+        if(isMobie){
+            front.addEventListener('touchstart',(e)=>mousedown_handler(e))
+            front.addEventListener('touchend',(e)=>{ (mouseup_handler(e)>150) && wordDiv.classList.add('backside')})
+            backside.addEventListener('touchstart',(e)=>mousedown_handler(e))
+            backside.addEventListener('touchend',(e)=>{ (mouseup_handler(e)<-150) && wordDiv.classList.remove('backside')})
+    
+        } else {
+            front.addEventListener('mousedown',(e)=>mousedown_handler(e))
+            front.addEventListener('mouseup',(e)=>{ (mouseup_handler(e)>150) && wordDiv.classList.add('backside')})
+            backside.addEventListener('mousedown',(e)=>mousedown_handler(e))
+            backside.addEventListener('mouseup',(e)=>{ (mouseup_handler(e)<-150) && wordDiv.classList.remove('backside')})
+            backside.addEventListener('mouseleave',function(e){
+                wordDiv.classList.remove('backside')
+            })
+        }
 
         const buttons = document.createElement('div');
         buttons.id = "word-btns"
@@ -279,7 +255,7 @@ chapters.forEach(chapter=>{
         querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
-            dict_frame.src = britannica_url + word
+            dict_frame.src = eudic_url + word
             if(!frame.classList.contains('dict_show')){
                 frame.classList.add('dict_show')
             }
