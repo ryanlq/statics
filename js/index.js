@@ -1,4 +1,6 @@
 const tips = document.querySelector('#tips');
+const britannica_url = "https://www.britannica.com/dictionary/"
+const youdao_url = "https://m.youdao.com/dict?le=eng&q="
 let tips_event_handler = null;
 
 const shadowHost = document.querySelector('#host');
@@ -55,19 +57,20 @@ style.textContent = `
     .block:hover #word-btns{
         visibility: visible;
     }
-    .block:active {
+    
+    .block.backside {
         cursor: pointer;
     }
-    .block:active .word{
+    .block.backside .word{
         visibility: hidden;
     }
-    .block:active .color-wraper{
+    .block.backside .color-wraper{
         
         position: absolute;
         margin-top:20px;
         z-index:22;
     }
-    .block:active .note{
+    .block.backside .note{
         color:#000;
         display: block;
         padding:20px;
@@ -208,11 +211,66 @@ chapters.forEach(chapter=>{
         wordDiv.classList.add("pure-g",'block')
         const html = `
         <div class="pure-u-2-24 ${color} color-wraper"></div>
-        <div class="pure-u-14-24 word">${word}</div>
-        <div class="pure-u-14-24 note">${note_br(note)||word}</div>
+        <div class="pure-u-14-24 word" id="word-front" tabindex="0">${word}</div>
+        <div class="pure-u-14-24 note" id="word-back"  tabindex="0" >${note_br(note)||word}</div>
         ` 
         wordDiv.innerHTML = html
+        //长按单词正面
+        let x1 = x2 = 0;
+        const front = wordDiv.querySelector('#word-front')
+        const backside = wordDiv.querySelector('#word-back')
 
+        front.addEventListener('touchstart',function(e){
+            x1 = e.x
+        })
+        front.addEventListener('touchend',function(e){
+            x2 = e.x
+            if ((x2 - x1) >  150){
+                x1 = x2 = 0;
+                wordDiv.classList.add('backside')
+            }
+        })
+
+        backside.addEventListener('touchstart',function(e){
+            x1 = e.x;
+        })
+      
+        backside.addEventListener('touchend',function(e){
+            x2 = e.x
+            if ((x2 - x1) < 150){
+                x1 = x2 = 0;
+                wordDiv.classList.remove('backside')
+            }
+        })
+
+        front.addEventListener('mousedown',function(e){
+            x1 = e.x
+        })
+    
+        front.addEventListener('mouseup',function(e){
+            
+            x2 = e.x
+            if ((x2 - x1) >  150){
+                x1 = x2 = 0;
+                wordDiv.classList.add('backside')
+            }
+        })
+        
+        backside.addEventListener('mousedown',function(e){
+            x1 = e.x;
+        })
+      
+        backside.addEventListener('mouseup',function(e){
+            x2 = e.x
+            if ((x2 - x1) < 150){
+                x1 = x2 = 0;
+                wordDiv.classList.remove('backside')
+            }
+        })
+
+        backside.addEventListener('mouseleave',function(e){
+            wordDiv.classList.remove('backside')
+        })
 
         const buttons = document.createElement('div');
         buttons.id = "word-btns"
@@ -221,11 +279,12 @@ chapters.forEach(chapter=>{
         querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
-            dict_frame.src = "https://m.youdao.com/dict?le=eng&q="+word
+            dict_frame.src = britannica_url + word
             if(!frame.classList.contains('dict_show')){
                 frame.classList.add('dict_show')
             }
         })
+
 
         const copybtn = document.createElement('div');
         copybtn.id = "word-copy"
@@ -245,10 +304,8 @@ chapters.forEach(chapter=>{
         chapterDiv.appendChild(wordDiv)
     })
     main.appendChild(chapterDiv)
-
-
-
 })
+
 
 chapters.forEach((chapter,i)=>{
     const _chapter = chapter.replace(/ /g,'_')
