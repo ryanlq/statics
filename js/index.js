@@ -239,10 +239,8 @@ chapters.forEach(chapter=>{
             backside.addEventListener('touchend',(e)=>{ (mouseup_handler(e)<-150) && wordDiv.classList.remove('backside')})
     
         } else {
-            front.addEventListener('mousedown',(e)=>mousedown_handler(e))
-            front.addEventListener('mouseup',(e)=>{ (mouseup_handler(e)>150) && wordDiv.classList.add('backside')})
-            backside.addEventListener('mousedown',(e)=>mousedown_handler(e))
-            backside.addEventListener('mouseup',(e)=>{ (mouseup_handler(e)<-150) && wordDiv.classList.remove('backside')})
+            front.addEventListener('click',(e)=> wordDiv.classList.add('backside'))
+            backside.addEventListener('click',(e)=> wordDiv.classList.remove('backside'))
             backside.addEventListener('mouseleave',function(e){
                 wordDiv.classList.remove('backside')
             })
