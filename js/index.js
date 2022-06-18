@@ -1,6 +1,7 @@
 const tips = document.querySelector('#tips');
 const eudic_url = "https://dict.eudic.net/mdicts/en/"
 const youdao_url = "https://m.youdao.com/dict?le=eng&q="
+const translate_url = "https://www.bing.com/dict/search?q="
 let tips_event_handler = null;
 
 const shadowHost = document.querySelector('#host');
@@ -271,7 +272,9 @@ chapters.forEach(chapter=>{
         querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
-            dict_frame.src = eudic_url + word
+            const words = word.split(' ')
+            words && (words.length>1)
+            dict_frame.src = words && (words.length>1)?(translate_url+words.join('+')):(eudic_url + word)
             if(!frame.classList.contains('dict_show')){
                 frame.classList.add('dict_show')
             }
