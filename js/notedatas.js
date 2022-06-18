@@ -10120,5 +10120,8483 @@ let NOTES = [
         "note": "multicolor 多彩\nglass bead 玻璃珠\ntribute 表感谢的赞颂，致敬 贡品\n",
         "section": "CHAPTER 19 - Behind the Mirror",
         "word": "as well as multicolored candies and glass beads-the tributes paid by two small girls to their murdered father."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "presence"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "flickered"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "the stillness of death."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "I have to talk to these ladies for a while.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "It's going to be lunchtime soon.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "knocked off"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "ever since"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "I've never asked for money or any kind of recompense, and I never will.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "commit\n[kəˈmit]\nvt.犯(错误),干(坏事),把...交托给,提交,答应负责\n\ncommit oneself 承诺，答应负责\ncommit suicide 自杀\ncommit a crime 犯罪；犯下罪行\ncommit crime 犯罪；干坏事\ncommit murder 谋杀\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"After a crime's been committed,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "面试\n采访\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "I interview witnesses,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "his recollection could well have been compromised."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "Witnesses bend over backward to be helpful,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"The more witnesses we can talk to, the more accurate Molly's picture will be,\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "medium adj中等的\nn 媒介 中间物 介质\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"My mother used to go to a medium to talk to her older sister."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "but I can't say that I ever completely believed her. I thought it was no more than wishful thinking.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "a reassuring squeeze."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "in any way 以某种方式\nin any way at all 完全以某种方式\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "if it upsets you in any way at all,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "They're usually anxious to spare them any more grief."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "by …旁边\nlook across\npedestal\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "Darlene looked across at the photograph of her late husband on the pedestal by the window."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "if he's able and willing to talk to us,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "best adv 最…\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "him-how you best remember him."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "floppy tapestry bag"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "small pouches,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "gone-beyonders"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "The candle had a strong, cloying scent, like rotting peaches."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "while n 一会儿\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "She was silent for a short while,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "tightly clenched fists"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "Nearly a minute went by."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "saw a distortion"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "fireplace."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "inclined her head toward the distortion,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "as if the fluted pillar on one side of the fireplace was slowly rippling, as if it were under water."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "room grew gloomier and gloomier,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "smudged,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "feature 特点\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "the rest of his features were blurred,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "her eyes filled up with tears."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "人格 混乱 迷茫\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "although his personality was jumbled and bewildered,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "he was still in state of shock."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "concentrated on calming him down."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "head moved jerkily,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "a distant, strangled sound,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "weeping"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "wipe her nose with the back of her hand."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "No matter how distressed Darlene was,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"Was he taller than you?"
+    },
+    {
+        "color": "highlight_yellow",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "build?\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "expression 表情\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "His expression was one of infinite regret."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "she sobbed, as her own reflection grew clearer and brighter,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "reappeared"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "a strain"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "distraught."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "fend for"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "a decorative box"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "wiped her eyes."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "一周左右之后\n",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "in a week or so,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "steady my nerves.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"A little too early for me,\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "Darlene went through to the kitchen,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"He was desperate to appear,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "frowned."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "not until afterward."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "some reason of his own"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "deliberately.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "pouches of herbs"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "purse"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "blew out her candle."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "that's way beyond"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "carrying a tray with three cups of coffee on it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "amber liquid."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "loneliness became unbearable."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "sitting down and filling up their cups with hot black espresso."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "\"George is probably shaking, too,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "doesn't exempt us from feeling any emotion."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "bitterly regrets that"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 19 - Behind the Mirror",
+        "word": "Sissy sipped her coffee."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "glancing"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "stopped off at"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "buy some more crayons and paints"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "artist's supply store"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "cushion"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "strawberry ice-cream cones"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"So where do you think we go from here?\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"People usually lie because they've done something that they're ashamed of.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a copycat killer,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "at almost the same time.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "No wonder the cards predicted so much blood.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "insight.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "The skies had cleared now, and a gilded sun was shining,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "the morning was still steamy,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "chirruping"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "parking lot."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "They drove out of the gates,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "headed toward Allison Street."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "bureau."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "whatever perverted purpose they have in mind-they are obviously determined to cause as much panic and disruption as they can.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"But what would you say to the general public in Cincinnati?\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "special precautions"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "our fellow passengers"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "that's in full view of two crowded streets"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Riding in elevators, walking in the park, going out shopping-even at home."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "So far,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "have no guarantee"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "diversify their assaults,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "the perpetrators have an agenda that makes some kind of twisted sense to them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "behalf of the CPD"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "deepest sympathy.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "with both knives at once"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "the knife blade had penetrated so deeply"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "had momentarily stuck"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a quarter of an inch."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "sedated and confused,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "her eyes kept roaming around the room"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "'Wicked!"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Sissy sat on the opposite side of the hospital bed, a little way back."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "as tight as an overwound clock."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "oddly,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "emptiness."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "being intimidated or beaten,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a distinct sense"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Bullies and abusing husbands lived inside their victims' consciousness,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "like malevolent spirits."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "evoked"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "examined her palm."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "outstanding"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "resistance"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "in store for 为…准备着\nlife threatening 危机生命的\nincident 事件\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "The other showed that she had another life-threatening incident in store for her when she was very much older,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "常用被动\n被…穿孔了\n穿过 贯穿\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "was perforated,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "revealed"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "sensitivity"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a willingness"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a procrastinator,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "whorl"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "装饰的花园\n\nornate a 华丽的,装饰的(orn+ate)\norn=embellish,表示”装饰”\nadorn v 装饰,修饰(ad加以+orn装饰)\nadornment n 装饰(adorn+ment)\nornament n 装饰品(orna+ment=装饰品)\nornate a 华丽的,装饰的(orn+ate)\nsuborn v 贿赂,唆使(sub在下面+orn=在下面装饰别人=贿赂)\ninornate a 不加修饰的,朴素的(in不+ornate华丽的)\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "the ornamental gardens"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "The whorl meant that Chrissie had witnessed a highly potent psychic phenomenon-something that most people would never witness"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "assailant."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "chisel\n[ˈtʃizl]\nn.凿子\nv.砍凿\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "His head looked slightly narrower than her previous two drawings of Red Mask, and his cheeks were more chiseled,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Chrissie opened her mouth in disbelief."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "You see your mount of Venus here, just below your thumb?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a passionate love life and a very satisfying marriage."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "I really hope you catch this psycho.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Sissy and Molly glanced at each other."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "simultaneous"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "carry out\n本意：抬出来\nvt. 执行，实行；贯彻；实现；完成\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "both of them had been carried out by a red-faced man."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Molly reassured her. \"You just worry about getting yourself better.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "The man-he had a piece missing from his ear.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "triangular"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a V-shaped nick."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"That's very distinctive."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Chrissie looked across at Sissy."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "a mass of black curly hair."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "crouched down"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "right to 直到\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "He had been stabbed through his hands seven times, and his left cheek had been sliced open right to the bone,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "penetrated"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "This one dude was telling him back off and everything, but he pulled out these knives and nobody stood a chance.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "humungous adj. 极大的\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"He was like humungous.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "deck 一副纸牌\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "the deck of DeVane cards."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "baffled,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "in a carpenter's workshop."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "three latticed windows gave out onto a garden."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "wise"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "the young man's inexperience."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "then offered the rest of the pack to Ben."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "shrugged"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "compass."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "Apprentice."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "ambition.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "velvet suit"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "an audience of various animals-dogs, goats,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "dressed in human finery."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "want to be a musician,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"A rock guitarist,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "because she was jealous of all the girls who hung around whenever you played.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "walking down a muddy country road."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "It was teeming with rain,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "bedraggled"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "lay\n",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "\"This is what lies ahead of you,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "you'll get very depressed and frustrated."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "See this break in the clouds? You'll get a break one day, when you least expect it.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "he were trying to shield his eyes."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "elaborate,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 20 - Red Mask Panic",
+        "word": "carved around it,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "scrutinized it carefully."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Outside Ben's room they came across Detective Bellman,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "chaotic"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "necktie was askew."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "flicked"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "took place at approximately a quarter after nine."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "assault"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "It's way across the other side of Fountain Square.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Sometimes they have admirers who hero-worship them and commit more murders in the same way,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "coincidence,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "planned-premeditated.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "press 报业 新闻界 按button的人\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "release them to the press."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Do you need a ride?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "sipping a cup of weak lime tea,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "the sparkling traffic"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "I've been to so many funerals,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "casket"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "think to myself,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "deceased person,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "He looked even more exhausted than Detective Bellman."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "One of his shirttails was hanging out"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "chin was prickly with white stubble."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "pastel"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "depth"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "The news bulletin"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "collapsed"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "so long as it gives me a lead.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "\"You want me to be totally frank with you?"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "two perpetrators dressed up the same, working some kind of premeditated plan,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "identical twins,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "instances"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "they were only visions,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "they never caused anybody any harm."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "I didn't think that spirits were capable of doing that.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "spiritualistic ideas"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "It seems to me like he's taking his revenge on anybody"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "simply because\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "He's angry at them simply because they exist."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "accomplice"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "eyebrows."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "\"Usually, the cards are very specific."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "try some other form of divination,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "As he did so正当他这样做的时候\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "As he did so, his cell phone played"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "he rummaged around in his coat pockets until he found it."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "He switched on the loudspeaker"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "accent 口音\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "It was the same Red Mask-harsh and indistinct, with a noticeable Cincinnati accent."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "you're nothing but a pair of sadistic morons."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "你们每人一个\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "one for each of you.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "What will it take for you to stop these killings?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "negotiation"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "olive branch?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "stop slaughtering innocent people,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "are flooded with blood."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "cemeteries are too crowded to take any more bodies and the crematorium ovens are so clogged up with human ashes"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "emphatic"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "abruptly hung up."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Didn't intend to offend you.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "\"He's taking the credit for both of those attacks."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "if you can work on those theories of yours, wacky or not.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "a gray steel plan cabinet on the opposite side of the studio."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "opened the third drawer down."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "over 空中传递的\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "handed it over."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "a blank sheet of white cartridge paper."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "归档\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "had filed"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Molly lifted up the sheet of paper and examined it closely."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "词首字母\n名字首字母\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "my initials"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "in the bottom right-hand corner,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Except there's no composite on either of them,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "momentarily"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "\"It's the same as the roses,\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "You drew him, and your drawings came to life.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "That simply can't happen.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "It sounds impossible, but it's the only explanation that makes any kind of sense.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "a human scent that the dogs could pick up.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "All I could feel was coldness, emptiness."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "We can't have five Red Masks roaming around the city. It'll be carnage.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "spilled coffee on them,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "Then she ripped the two composites of Red Mask"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "noisily crumpled them up."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "She held them over the metal wastebasket while Sissy took out her Zippo lighter and set fire to one corner."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "flare up"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "crumple into wrinkled black ash."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "\"Better to be safe than very,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "hunting for"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "how are we going to find him on earth\n",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "how on earth are we going to find him,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 21 - Drawing a Blank",
+        "word": "it would be way too dangerous.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "\"Slight accident.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "hailstorm"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "smashed"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "locusts"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "the washer spray again and again so that she could see where was going."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "horny,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "被压扁 被挤扁\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "get squished"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "drop dead anyway,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "their reproductive duty.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "was teeming with cicadas."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Molly picked up an old squash racquet and swung it from side to side, swatting them out of their way."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "lit up"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "blowing smoke out of her nostrils."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "It's a pretty fine line between miracle and nightmare,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "exorcized"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "two-dimensional world of paper,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "their likenesses torn out and burned, and their ashes scattered forever."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "It might lubricate the old psychic mojo a little.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "They'll soon be gone.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "the illusion ended, and the roses returned here,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "likeness\ndrawing\nsketch\npainting\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "portrait"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "real reality and paint reality\n真正的现实世界和画中现实世界\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "reality and painting reality."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a famous incident"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "红衣主教\n首要的 主要的\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "A cardinal had a secret passion for a prostitute,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "-ish 造成…\nblem 弄脏 《blame责备 》\nblemish n 污点 v 弄脏\n\nunblemished 清白无暇的\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "unblemished"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "portrait, hidden in her attic,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "it was supposed to\n原本应该。它本应该\n\ni suppose = i think /i guess\n\nhideous 极丑的\nvomit v 呕吐 使呕吐\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "it was supposed to have looked so hideous that men actually vomited when they looked at it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "getting lost inside"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "hokum,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "colonists"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "grace."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a wristwatch."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "at the same time as"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "she still didn't sound convinced."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "makes some cockeyed kind of sense."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "the wooden block on the kitchen counter,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "went through to her studio"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "deftly"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "watercolors."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "inanimate objects.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "The cards showed you with a talisman,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "It looked dull and cheap"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "blemish\ntarnish\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a jingling collection of glass beads and tarnished mascots-but"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "necklace\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "fasten it around her neck,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "painted the steak knife a second time."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Sissy was strongly tempted to light another cigarette,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "The air-conditioning rattled"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "cicadas ceaselessly chirruped."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Five minutes passed"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "the steak knife remained on the paper,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "As the seventh minute passed,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "the faint outline of the blade."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "left behind 留下 遗留\ninherent 固有的 本身的\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "not even the inherent sharpness that a real knife would have left behind it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "absence"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "cicadas, all glistening in the early-afternoon sun,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "解析\nimmediately 指做完一件事后，立即就做另一件事，中间一般没有明显的时间间隔。\ninstantly 指恰恰就在此刻，一秒钟也没耽误。\npresently 指不久、即将。\ndirectly 和immediately同义，指毫无迟疑。\nshortly 和soon同义，指动作发生或完成的速度之快。\nsoon 常用词，指行动快，完成速度快。\nat once 口语中常用，语气强烈，指时间紧迫，一刻也不能耽误。\nright away 主要用于美国英语，语气稍弱于at once，强调动作迅速\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "at once."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "go dark on its own,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Molly knelt down on one knee"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "as sth as sth\n\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "cut the roses as close to the soil as she could."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "offered them to Sissy,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "fragrance"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "that 从句\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "have an actual physical effect on things that are painted,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "decode the symbolism"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Now and again she glanced across at the flowers"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "honeymoon"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "on\nabout\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Molly had borrowed four library books on roses,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "The Illustrated Rose."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "great secrecy."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "myth"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "bribe"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "sexual indiscretions"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "ancient"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "suspended"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "keep their discussions confidential-hence the term sub rosa.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "An upside-down rose, suspended over a table?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "She shuffled through the DeVane cards"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a lavish dinner"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a ribbon."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "She tucked the card back into the deck and shuffled it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "移来移去 走来走去 洗牌\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "shuffling"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "thoroughly"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "shrugged."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a politician."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "a saint."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "examined the card more intently."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Molly took down a ladle from the rack above the hob and held it up close to the card."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "concave bowl"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "She felt as if the floor had dropped away beneath her feet."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "prominent,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "at once 一次就… 立即 马上\n",
+        "section": "CHAPTER22 - The Hooded Guest",
+        "word": "Sissy had recognized him at once."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "devised"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "a shiny silver bowl"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "Her heart was beating so fast"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "scar"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "some punk threw a screw-driver at him.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "comforting"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "What else do you think this card is showing us?"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "The young man represents Trevor. The girl represents you."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "flat"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "I have plenty of photographs you can use for reference.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "religious."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "attending"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "moral"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "seem like"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "in which a grieving father"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "resurrects"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "carried a price"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "quite certain about,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "tough 坚强\n",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "He was tough,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "fair,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "what the consequences are going to be."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "a small antiques store,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "out near the country club.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "rested them,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "only the smell of cartridge paper."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "chaise longues, a pair of armchairs, two bureaus, and a gilded desk."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "their cherry trifle?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "provenance?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "a costume piece,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "get rid of everything."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "an awful lot of junk."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "old theater programs"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "superstition,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "gilded desk,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "a leather-bound book."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "licked her thumb and leafed through it until she came to the page"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "was well into her eighties."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "She was white haired, small, and stooped,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "a pearl pin at the collar"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "She lived in a ground-floor apartment overlooking a small courtyard."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "ginger"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "sleeping on the bricks outside her window."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "furnished entirely with"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "beige couch,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "\"We don't want to take up too much of your time.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "flamboyant"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "Who it used to belong to?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "some woman in Paris gave it to him, in exchange for chocolate."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "\"The woman didn't know who all of them were."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "allegedly"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "earrings"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "after he was pardoned. This ring here,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "this is worth a fortune,\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "None of the charms are particularly valuable,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "genuine."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "we couldn't find any way to authenticate them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "certificates,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "All we had was"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "confessed."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "Gogh went out into the countryside one day"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "shot himself in the chest with a revolver."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "walk back to the inn where he was staying,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "I came across a letter from Van Gogh's brother,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "the serving girl"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "personnes…there are two of me, the good and the evil,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "He had a split personality,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "propping up his easel"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "he went around to the back of this château"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "only a few seconds afterward, he saw Vincent for a second time,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "pistol"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "intent on shooting him.'\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "小装饰品\n",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "charm,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER23 - Drawn from Memory",
+        "word": "she would be persuaded to stay in Poland"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "genuine,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "lunacy."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "exasperation."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "scar"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "supposedly to finish her homework,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "if he was adamant that he didn't want his father to be resurrected,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "it's sacrilegious enough,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "The television was on, even though the sound was mute."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "throughout downtown"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "it was virtually a ghost town,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "apprehend them,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Be vigilant. Be careful out there."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "as usual."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Red Mask individuals want to cause as much fear and disruption as possible,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "we should not allow them to succeed.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "morale."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "maniacs.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "\"I'm not a cynic, Trevor. I'm a realist.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Sissy reached for the Cherry Mashes on the table, unwrapped one, and popped it into her mouth."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "The sky was intensely blue"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "the fields were stacked with bright yellow corn."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "sound of crickets"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "the cawing of crows as they circled overhead."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "She was walking along a dry, rutted road, beside a long stone wall."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "dilapidated"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "folding up the deck chair and propped it up against the gate. He turned around to face her"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Red Mask seemed to be amused.\"Even"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "walked away through the archway behind the gates and into the orchard beyond."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "she was reluctant to go after him."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "She was just about to continue on her way"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "walking very briskly."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "a large triangular butcher knife."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "It's no use waiting."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "No rest for the wicked. No justice for the innocent."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "he stalked through the gateway toward"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "felt a cold tingle of fear,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Up ahead of her,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "flickers of lightning."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "The poplar trees along the side of the road began to rustle uncomfortably and sway."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "on the horizon,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "the silhouette of a giant."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "the wind began to whistle."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "In the field to her left,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "gravestones,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "on the nightstand beside Sissy"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "blind\n瞎的 —失明的 —隐蔽的\n使变瞎— 遮蔽—视而不见\n—百叶帘，使变瞎的物件\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "pull up the blinds."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "It was a gloomy morning,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "makes his mind up,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Stubborn"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "sip juice\nwipe mouth\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "sipped her grapefruit juice and wiped her mouth."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "gather 聚拢 人/动物/动的东西\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "the storm clouds gathering overhead."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "\"It's academic,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "thought of"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "without any regard for his own personal safety."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "be resentful at being resurrected,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "eternal 永恒的 不朽的\neternalness 永恒 永远\neternally 永恒地 不变地\neternize v 使永恒\neternise v 使永恒\neternalize v 使永恒\n\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "eternity,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "剩余的\n休息\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "resting"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "designer jeans.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "make any less adj\n降低…\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "makes her any less fashion conscious?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "besides,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "there's not much I can do to persuade him otherwise.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "going senile?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Pragmatic.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "adj or not 无论是否…的\nprecious 宝贵的\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Pragmatic or not, he's still precious to me."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "what lunch do you have in mind？\nin mind 考虑 思考\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "What do you have in mind?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "chicken stirfry"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "couldn't help doing sth 忍不住做某事\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "Sissy couldn't help smiling."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "phrase,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "tempter 诱惑者 魔鬼 撒旦\ntemptable 能被诱惑的、易被诱惑的\ntempt 引诱…干坏事\n",
+        "section": "CHAPTER24 - Trevor Says No",
+        "word": "seriously tempted?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "人行天桥\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "skywalk that overlooked Fountain Square."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "with water cascading from her out-stretched hands."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "shopper 购物者\nhurrying across 匆忙穿梭于…\nthe glistening wet bricks 闪闪发光的潮湿地砖\nrather be anyplace else 宁愿在任何其他地方\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "shoppers hurrying across the glistening wet bricks as if they would rather be anyplace else but here."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "doorway."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "profile 人物侧面 物体侧影\nprofiler 侧写师\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "profilers"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "terrorist activities."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "severe"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "waistline,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "穿过\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "crossed over"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "follow sth past sth\n沿着/跟着/跟踪着 … 穿过…\npast 刚过去的～穿过\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "followed the skywalk past Tower Place Mall."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "sth be glass in\nglass in sth\n玻璃装配的…\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "was all glassed in,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "preworn,\nprewashed\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "jeans for preteens,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "insist on having sth\n坚持拥有某物\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "insisted on having."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "rummaged through"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "rags."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "thrift 节俭\na thrift store 一家旧货店\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "a thrift store.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "assistant,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "a pair of jeans with rips in the knees."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "smiled conspiratorially,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "a wintry look,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "\"Cash or charge?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "Trevor poked his finger through it, and waggled it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "sundry.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "supervisor,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "leading back to"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "heard sth behind sb\n听到身后…\nheard someone hurrying up behind them\n听到他们身后有人匆匆赶来\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "Trevor heard someone hurrying up behind them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "slit\nnarrow\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "gash"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "他们的孩子被围在中间\ncatch … in between …\n… be caught in between …\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "their children were caught in between them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "bang 巨响\nbang on 撞在…【巨响在… 】\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "bang on the glass,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "who were passing beneath them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "huddling together."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "bear n 熊 v负担 忍受 带给 挤\nbear down\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "bore down"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "两端\n",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "either end"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "ferocity"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "blizzard"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "sound of constant stabbing."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "Trevor seized Victoria's sleeve and yanked her close to him."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "toppled over,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER25 - Blood on the Skywalk",
+        "word": "\"Don't you move! Don't you make a sound!\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "Trevor snapped his cell phone shut,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "a sedative,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "hunched"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "been fatally injured"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "The attack had lasted a little less than three and a half minutes,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "The two men who had perpetrated the attacks fitted the descriptions"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "two out of the three"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "but nobody had seen how or where they had gone afterward."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "urgently"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "appealing to"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "a getaway vehicle"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "attendants"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "three-dimensional,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "intelligence,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "get my head around all of this."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "for instance?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "a conjuring trick."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "roses, entwined on the railings…but"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "One for every person"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "coincidence.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "two men nailed to the crosses."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "whiskey"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "Not after seeing all those people butchered.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "fantasize"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "the cicadas were chirping more raucously than ever."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "She lit a cigarette and deeply inhaled."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "troopers"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "funeral."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "it had come upon her quite unexpectedly,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "He had always found it difficult to pay her compliments,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "go ahead with it.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "you're not infallible. Nobody is.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "opened it. Inside was a large color photograph"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "shore"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "hair was ruffled by the ocean breeze,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "materializes-if"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "be momentous, both physically and emotionally."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "\"Sissy, you're such a cynic.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "pace 踱步\npace up and down 来回踱步\n",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "pacing up and down."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "Every now and then, he nervously cleared his throat, as if he were waiting for a job interview."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "three smaller photographs showing his right and left profiles"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "attitude"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "dry sense of humor."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "dedicated to helping\n",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "he had been dedicated to helping other people,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "drug addict"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "turn his life around."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "long-sighted…like"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "he always made her feel transparent, as if he could see right through her.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "'Sissy-you are the most irrational person I ever met."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "if I didn't inherit any of that.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "I think you're more like me than you care to admit.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "came back across the room and stood right behind her, staring at his dead father in fascination, but also in deeply suppressed pain."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "\"If anybody knew what madness and fear and disappointment were all about, he did.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "thank you for your consideration,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "residence."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "\"Not if you're wearing that necklace, you can't.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "receiver\n",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "then she held out the receiver for Sissy."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "that I was kind of relieved."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "我被认为/假定是…\n",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "I'm supposed to be the most skeptical guy"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "even us skeptical guys"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "clutching at straws."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "We've raided three addresses this afternoon, looking for red-faced"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "the only red faces were ours.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "Sissy tried to choose her words with care."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "\"In a way."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "end up\n\nhunters\n\nhunted.\"\n",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "the hunters could end up becoming the hunted.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "\"Well…I'm a whole lot more confused than I was a minute ago,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER26 - The Summoning",
+        "word": "carpet"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "let out"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "Eleven o'clock chimed."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "the weary ticking of the wall clock."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "One fall day,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "she could stroke Mr. Boots's ears"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "snored without realizing that she was snoring."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "all echoes and shouts and squealing tires,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "her voice was thin and strangulated,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "She woke up with a jolt."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "desk lamp"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "stirred in his sleep"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "it was ten after two in the morning."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "She eased up herself up from the couch"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "although the sky was stained with orange from the city lights."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "As her eyes became accustomed to the darkness,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "partly out of fear and partly to make sure that she was really awake."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "She had never felt a sensation like this before:"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "such a mixture of elation and terror."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "whether"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "How can that be?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "coma,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "\"I've been unconscious? For twenty-four years?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "the light from the kitchen window shone on his face."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "show the signs of encroaching age."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "how come\n",
+        "section": "CHAPTER27 - A Painting of Frank",
+        "word": "How come I'm not in a hospital or anything?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "as if he were concussed."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "taking in the flowery red and yellow drapes and the hutch with its decorative pottery plates and jugs."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "\"I'm finding this real hard to take in,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "Sissy sat down opposite him"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "I won't be at all surprised.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "a small mirror with a frame made of ceramic daisies."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "touched his forehead and prodded his cheeks."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "\"They passed me by?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "tearaway,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "straighten him out,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "I reckon that"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "Frank lowered his hand and looked up at Sissy in bewilderment."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "He shot you without any warning at point-blank range.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "choked up."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "It's the only way I could think of"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "to save scores more people from being murdered."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "He touched Sissy's hair and wound one of her silver curls around his finger."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "\"Wild as ever,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "so flyaway.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "She turned toward the corridor that led to their bedroom, but she didn't have to go to rouse them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "embraced each other tightly,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "ever again."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "if anybody fancies some."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "\"So far as I know."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "caught sight of"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "she grew quieter,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "etched"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "police tracker dogs couldn't pick up any kind of scent."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "\"There's no point in"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "sophisticated"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "had an intuition for"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "bandstand"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "scattering of leaves"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "I can hear the cars going by,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "collapsed onto"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "staring into an intensely bright light."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "As she passed Molly's study, however, she paused,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "regretfully."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "a vivid portrait."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "But of course she had the \"real\" Frank now-a Frank she could talk to,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "the painting was very much fainter."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER28 - Bad Memories",
+        "word": "wither and die, and disappear."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "steadily breathing."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "forking up a breakfast of scrapple and fried eggs."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "waitress"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "condemned"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "in spades."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "Suddenly he didn't have an appetite anymore."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "hauled up"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "assume"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "barrel.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "onetime"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "purpose\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "propose?\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "immediately punched out Lieutenant Booker's number at headquarters."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "park 停车\nacross …另一边/对面\nclimb out 爬出\n\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "They parked across the street from the Giley Building and climbed out of their car."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "unnaturally chilly."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "pick\ngrim\n形容词比较级使用\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "\"He couldn't have picked anyplace grimmer,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "建筑物 building\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "parking structure."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "due adj 约定的 预期的\nn 应付款 应得物 权力\n\ndue for 按约定做某事，应该得到\ndue for demolition 按约定拆除 应该得到拆除\ndue to\n\ndemon 魔鬼\ndemolish v毁坏 破坏 推翻 粉碎\ndemolition n 毁坏 破坏\n\nvac真空\nvacate v 腾出 空出 休假\nvacation n 休假 假期\nvacant adj 空的 空虚的 空闲的\n\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "it was due for demolition as soon as the Giley Building itself was vacated."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "grimy"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "con 一起 crete create 一起创造的… 被用来一起创造的物体\nconcrete\nadj 实体的 确定的 混凝土制的\nn 混凝土\nv 用混凝土浇制\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "concrete,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "streaks"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "rusty steel mesh."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "twelve more would arrive in the next few minutes without sirens or lights."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "cordoned off"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "直到最南边\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "as far south as"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "northeast,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "helicopter."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "sharpshooters"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "helicopter crew"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "ventured out"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "flat adj 平的 n 平地\nflat roof 屋顶平台\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "flat roof."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "a jutting chin"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "a punishing workout."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "acknowledge  承认 确认\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "Kunzel acknowledged them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "And he's adamant that he has no accomplice.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "they have this really highly developed synchronicity."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "illogical,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "apparently motiveless,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "brief v 向…说明\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "when I first briefed you:"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "however many Red Masks there are,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "moral compunction"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "a huge concrete beam"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "sentry"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "attendant"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "parking fees."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "from years of use."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "jog\nramp\n\nsqueaking\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "as one of the SWAT teams started to jog up the ramp, their rubber-soled boots squeaking on the concrete."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "toil"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "explanation"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "\"He's probably watching us from some office building across the street,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "malfunctioned,\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "\"We're immobilized halfway between the sixth and seventh"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "wires have been cut.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "\"The hatch is jammed. We can't open it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "showdown.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "It smelled of oil and dust and diseased concrete."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "Inhuman"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "dripping of a sprinkler pipe"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "flap 拍打的声音 飘动\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "the soft flapping of a discarded newspaper."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "automatic"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "They climbed cautiously up the ramp"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "corner n 角落 v 逼到角落\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "cornered,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "reveal 展示 暴露\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "they don't want to make any sound in case they reveal their position.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "当…时候\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "But as Detective Kunzel opened it,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "up above 上面\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "they heard scuffling and shouting from one of the levels up above them."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "concrete pillars,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "soak hot\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "when they were doused in blazing gasoline."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "start off 以…开始 出发 开始旅行\nstart off as 开始是…的方式 （as conj 以…的方式）\npierce 刺穿 刺破 穿透 突破 深深感到\npiercing 刺骨的（感受）刺耳的（听力）敏锐的（视力）\nfalsetto 假声，假声的\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "It had started off as a piercing, panicky falsetto, like somebody begging please don't hurt me,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "the falsetto voice descended into a wide, agonized howl\ndescend v 下降 下来 下去 遗传 （drop fall sink空气水中垂直下沉）\ndescend into 下降到到…\n\nagonised howl 极度痛苦的嚎叫\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "it descended into a wide, agonized howl."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "untter 完全的 绝对的\ndespair 绝望 失望\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "There was a last shout of utter despair, and then it stopped."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "clip n夹子，回形针 v夹住 修剪\nunclip v 解开\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "Detective Kunzel unclipped his radio."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "one of the upper floors.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "blurting"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "crackle 发出嘟嘟声\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "The radio crackled and went dead."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "fury n 狂怒 暴怒 怒火中烧\nfurious adj 愤怒的 狂怒的\nfuriously adv 愤怒地 暴怒地\n\nthe palm of hand 掌心\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "slapped it furiously in the palm of his hand,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "He listened intently,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "shouting, but they're much too faint.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "pistols and shotguns"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "as well as\ndeafen and blind 震聋和闪瞎\nadversary 对手 旗鼓相当的对手\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "as well as flashbangs to deafen and blind any adversary"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "so far 到目前为止\nbut so far 但是到目前为止\narrest n v 逮捕\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "But so far he had heard no radio reports of any arrests."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "drawnout scream,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "tiny，faraway voices 微弱遥远的声音\nas faint as 和…一样模糊\nfly 苍蝇 flies 苍蝇\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "he could hear some tiny, faraway voices, as faint as flies,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "six feet thick 6寸厚\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "These walls-they must be six feet thick.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "glance upward 向上看了一眼\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "He glanced upward again."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "as agonized as the first,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "the climactic note in some hideous opera."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "tier n行列层排 v使层叠\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "the tiers"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "abruptly ended"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "关门的声音\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "a huge door slamming"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "返回向上跑去\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "run back upward,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "his belly joggling under his brown checkered shirt."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "reluctantly ran after him."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "Sergeant"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "a strange scraping noise,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "hurry over to 匆忙赶到\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "hurried over to the stairs."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "stairwell."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "气喘吁吁和汗流浃背\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "He was panting and sweating."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "To protect and serve.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "commit suicide,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "headlong 莽撞地\nheadlong rush into any situation\n莽撞地冲进任何状况中\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "rush headlong into any situation"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "mosey  = slowly walk\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "Mosey back down to the street"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "heave nv 举起\nheavy 重的 沉重的\n\nlift 指用人力或机械力把某物升到较高的位置。\nhoist 多指用绳索、滑轮等机械把重物升起。\nraise 较正式用词，常可与lift换用，但强调把某物举起或抬起到应有的高度。常用比喻。\nelevate 较正式用词，指位置、高度的升高，多作比喻用，指职位、品德等的提高。\nheave 指需花大力气或借外力才能举起或抬起重物。\nboost 原义指从后面或下面推起或提高，现常用于指提高价格、振作精神等抽象概念\n\n",
+        "section": "CHAPTER29 - Hide-and-Go-Seek",
+        "word": "he seized hold of the handrail and started to heave himself up the staircase."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "踢开门\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "kicked open the door."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "No sound at all, except for dripping,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "the faintest soughing of a draft down the stairwell,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "an elderly cancer victim"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "cock 翘起\ncock back\nslide 滑杆\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "He kept his gun held tight in both hands, the slide cocked back ready."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "he shouted in a phlegmy voice."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "噗噗噗 声音\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "chuffing"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "wish 请求\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "He wished to God"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "v 重击、（心脏）急速跳动\nn 砰砰 重击声\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "thumping"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "再有一段台阶\na flight of steps 一段台阶\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "one more flight of steps"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "hollow structure of the building"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "他以后发现\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "he later discovered that"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "楼梯平台\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "landing."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "He dragged out his big red handkerchief and wiped the sweat from his face,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "越过 交叉\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "crossed"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "hedge"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "he pushed open the door and stepped past it, moving across the floor"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "as nimbly as a waltz instructor,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "swinging his gun from left to right,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "vehicles"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "take up 拿起 占据\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "taken up"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "cardboard boxes"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "edge n 边缘  v 慢慢移动 侧着移动 慢慢进入\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "he edged his way around the stairwell"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "轻轻地踩踏\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "treading lightly,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "mutilated bodies"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "reduced to 变为 沦为\nrag 破布\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "their bodies had been reduced to rags,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "前移\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "tried his radio again, but it still produced nothing but a crackle. He advanced slowly across the concrete floor,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "thighs"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "larder"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "but this time it was less for his own protection than a gesture of respect for the dead."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "tried to sound stern,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "sadistic"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "sidestep"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "comprehensively sliced"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "whitewashed brick wall"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "a life-sized painting"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "he was grinning triumphantly."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "Kunzel spun around, expecting the real Red Mask to come up behind him,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "He approached the painting with a mixture of bewilderment and dread."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "so detailed"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "thin black slits,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "wavering"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "a haze of rising heat."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "\"Take your knives out real slow and toss them out of reach.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "conjuror."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "a long chalk.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "by then 到那时\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "If you haven't done it by then, I'm going to drop you,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "Courageous fellows,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "Heroic,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "one’s ownsome 某人自己\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "on his ownsome?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "by all means 通过所有的手段/方式\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "then by all means go ahead and drop me."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "bend on 下决心做某事\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "they're bent on doing next?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "exasperation."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "up against 面临\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "\"You don't have any idea what you're up against,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "do you a favor 帮你一个忙\nfavor 恩惠\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "\"I'm trying to do you a favor here,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "\"One day, I may feel that justice has been served"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "my thirst for vengeance has been slaked."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "Kunzel glimpsed the rusty-colored glint of a bloodstained blade."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "be deafening 正发出震耳欲聋的声音\nchips of shattered brick 破碎的砖块碎片\nfly-flow\nfly off 飞出\nricochet 反弹 弹跳\nmourn 节哀\nmournful 哀伤的 sad\nwhine 呜咽声 呼啸声\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "his gun was deafening. Chips of shattered brick flew off the side of the wall, and the bullet ricocheted across the parking area with a mournful whine."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "clatter\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "the gun clattered onto the floor."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "first Red Mask dodged from side to side, trying to block his way."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "So soon?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "ribs."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "hunched"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "rear up 拱起背\nbelow 在…下面\nbellow 吼声\nrage 狂怒 盛怒\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "reared up from the floor with a bellow of rage and pain."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "collid 撞\ncollid with 和…相撞 撞向…\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "He collided with the first Red Mask, knocking him aside."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "pain 痛苦 区别一下\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "panting,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "droplets of blood"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "警校\nacademy 学院 研究院\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "police academy"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "the evening sun shining through the window."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "30码远的距离\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "thirty yards away,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "lower vt 使降低，使跌落 /削弱 削减\nadj 较低的 低等的\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "both knives lowered,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "midday 中午\nshine shone shone\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "His face shone in the midday sunlight"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "diagonal 对角线\n\nplunge\n[plʌndʒ]\nn.跳进,投入\nvi.投入,跳进,陷入\nvt.使投入,使插入,使陷入\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "Without any hesitation, he plunged them with a sharp chopping noise into Detective Kunzel's stomach, cutting first one deep diagonal,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "upper left to lower right, and then another, upper right to lower left."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "intense 强烈的\nquake 颤抖\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "Kunzel felt pain so intense that his whole body began to quake."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "\"Entertainment"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "slid back 滑回\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "sliding his knives back into his coat."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "stage 舞台\nstag 色情 雄鹿\nstagger adj 交错的（交配）v （交错行走）蹒跚 摇晃 交错 摇摇晃晃\nstagger back against the wall\n贴着墙摇摇晃晃的返回\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "staggered back against the wall."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "title区别一下\ntilt 倾斜 使倾斜\nhe tilt sideway 他向一侧倾斜\ntumble = fall 跌落\ntumble down 跌落到\n",
+        "section": "CHAPTER30 - Carrion",
+        "word": "he tilted sideways and tumbled down the stairs,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "croaked."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER30 - Carrion",
+        "word": "resonating"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "he had no way of knowing that"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "被子\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "comforter,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "stroke 轻抚 抚摸\nstrock his beard\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "stroking his shoulder, touching his ear."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "（健康）到下\n折叠\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "collapse,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "\"Pretty good, so far as we can tell."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "As far as they're concerned,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "particular"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "忍不住朝他微笑\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "couldn't help smiling at him."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "stir 动了动\nfrown at 对…皱眉\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "Frank stirred and opened his eyes, and frowned at her."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "Victoria came shyly into the bedroom"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "She stood staring at Frank with a solemn expression on her face."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "视觉假象\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "an optical illusion."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "most of all"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "fascination."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "It was humid outside."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "settle\n[ˈsetl]\nn.有背的长凳\nvt.安放,使定居,安排,解决,决定,整理,支付,使平静\nvi.安家,定居,停留,下陷,沉淀,决定,澄清\n\nunsettle 使…不安\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "Frank's presence had somehow unsettled them."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "\"Homely little critters,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "be perplexed by sth/sb 对某人某物感到困惑\nperplex sb 使某人感到困惑\n\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "be perplexed by Frank,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "his cock cocked on one side\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "his head cocked on one side,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "go after"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "the more time Victoria can spend with her grandma.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "search it all over again."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "\"The building was evacuated after the last attack,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "psychic resonance.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "as if he were developing a migraine, but said nothing."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "nagging at the back of my mind,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "serve\nserver\n\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "severe,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "hairpins"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "prodded"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "willingly,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "turn out to be 结果是… 原来是…\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "But even if they speak in riddles, they always turn out to be telling the truth,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "wrong vt 误解 冤枉\n",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "wronged"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "insulted"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "with her cigarette dangling from one side of her mouth and one eye closed against the rising smoke."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "reappeared,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "massacred,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "very last"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "border."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "troopers with tracker dogs went searching for her deep in the furthest recesses of the legendary Colebrook cavern."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "shivering,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "Righteousness."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "walking through a shadowy place"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "a fiery torch"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "led"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "bloodhound,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "inflammable."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER 31 - Bad Day Dawning",
+        "word": "a scenting dog."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Sissy crushed out her cigarette."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "traffic cop waved them through the police barrier on Seventh Street and told them to take a left on Vine and then a right on Sixth."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "They drew up to the curb outside the Giley Building"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "ambulances"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "coroner's office."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "passenger door"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "invulnerable,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Bulletproof, knifeproof. Deathproof.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "as much backup as he wanted.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "casualties?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "frenzied"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Another four fatally injured"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "the eagle-crested badge"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "help you out.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "all over 一切结束，到处\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "\"Anybody see them leave the parking structure after it was all over?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "There's an alley at the rear,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "demolished"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "ever since 自从\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "\"It's been locked and guarded ever since the last attack,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "lieutenant"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "what kind of forensics"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "is pretty keen to give it a try."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "station v安置 配置 驻扎 n 车站 身份 地位 驻地\n\nstation out at some place 驻扎在\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "He used a medium when he was stationed out at Shaker Heights,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "out bounded a large German Shepherd with pricked-up ears. Trevor clipped a leash on him."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "were standing guard."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "untied the yellow police tape"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "We can't believe that Mike won't be coming trundling back through the door, whistling"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "charge 猛冲\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "He went charging up those stairs like a bull,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "sympathy 同情\ndeputy 代理人 代表\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "offering his sympathy, Deputy came up to Molly and Detective Bellman and gave them a single sharp bark. He was a handsome dog,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "intelligent"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "as reference 作为参考\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "as reference for her painting of him,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a further two hours before his image had eventually faded"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "caution n.小心,谨慎,警告 vt.警告\nprecaution n 预防 警惕 防范\nas a precaution 谨慎起见。保险起见。\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "As a precaution,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "utility room"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "in case the new arrival made him jealous."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "就算这样 /虽然如此\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Even so,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Deputy had materialized in the yard"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "sound in the back of his throat."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "pushed his way through the revolving doors"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "chunky\ncropped 平头的 短发的\nginger 姜黄色\nbulge nv 凸出 突出 膨胀\nexpression 表达 表情\npugnacious 好斗的\nburst v 爆炸，使爆炸 冲 闯 突然显现 突然打开 使绽放\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "He was a short, chunky young man with cropped ginger hair and bulging blue eyes. His expression was permanently pugnacious, as if he were bursting for somebody to challenge him or talk back to him or step out of line."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "It was gloomy and silent,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "the polished marble floor and the clicking Deputy's claws."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Sissy opened her purse and drew out a length of red cotton."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "copy 仿制品\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "replica"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "badge,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "She bent down and held the sleeve under Deputy's nose. Deputy sniffed, and growled, and shook his head."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "pull at his leash,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "unhook\nuntie\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "unhooked his radio and"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "take the bus\ntake the elevator\ncheck back with you 稍后联系你\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "we're taking the elevator. I'll check back with you as soon as I know which floor we're on.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "for 代表 代替\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "He pushed the button for the center elevator."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "意外的镇定\nperturb 感到不安\nunperturbed 镇定的 安心的\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "she looked surprisingly unperturbed,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "They went past floor after floor,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "the reception area,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "onward 向前的 前行的\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "\"Onward and upward,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "rise rose rose\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "rose toward"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "变得越来越激动/烦躁\n\nupset 最普通，最通俗用词，侧重失去精神上的平静，心理上完全丧失平衡。\nagitate 侧重指内心的焦虑，难于控制，表露于外。\ndisturb 指因某人的行动、扰乱、妨碍安静等而使人不得安宁。\nperturb 书面语用词，指使人焦急烦恼，扰得心情不安\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "grow increasingly agitated"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "circle around"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "lash n.鞭子,鞭打,睫毛,责骂,讽刺\nvt.鞭打,摆动,扎捆,冲击,煽动,讽刺\nvi.猛击,急速甩动\n\nbeat、beat up、sway、swing\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "lashing his tail against the walls."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "scrable\n\nvi. 乱摸,扒寻\n(用手指迅速或困难地)摸索着找\n很快地抓(或挠)\nn. 抓,摸索,扒寻\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "scrabbling his claws against the elevator doors."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "holster 手枪皮套\nunholster 解开手枪皮套\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "unholstered his gun"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "stay away 远离\nstay away back 都留下来\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "\"I want you all to stay way back,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "With a series of squeaks, the elevator doors juddered apart."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "扯掉,跑掉,匆匆写成,获得\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "tearing off"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "he reared up, panting and whining, half choked by his collar,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "all of sb’s strength 某人全部的力量\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "it took all of Frank's strength to hold him back."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "\"A trail,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "scent him,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "audible adj 听得见的\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "the barely audible echoes"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "Faint baby voices,\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Fainter sounds of laughter"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "glossy"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "pathway,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a supply closet"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "was growling and scratching at the paintwork."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "rattled the handle."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Deputy kept clawing at it and keening,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a letter opener"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "unholster his gun\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "holstered his gun"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "perpetrator\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "hunkered down in front of the doorway, poking the letter opener into the lock."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "vast 巨大的 辽阔的 大量的\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a devastating kick."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "doorframe was splintered,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "inward,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "bouncing sideways"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "stationery boxes."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Deputy hurtled forward, so violently that Frank lost his grip on his leash."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "furiously barking."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a heavy crash like a fax machine falling over."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "unintelligible roar,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "yanked out"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "get … cornered 把…逼到角落\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "We got the bastards cornered!\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "exploded out"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "snowstorm"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "clutching"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "hind back behind ward\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "his hind legs were barely touching the floor."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "protruding"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "high-pitched shrieks."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "face v覆盖\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Red Mask was scarlet faced,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "气炸了😤\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "bursting with rage."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "matted with"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "blood was splattering onto the floor."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "brandished"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "愤怒地\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "wildly"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "hurled him clear across the office, so that he collided with a thump with the side of one of the cubicles and left streaks of blood down the side of it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "defiantly"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "narrow\nslit\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "gash,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "in turn."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "deafen\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "deaf,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "You're loud and irritating and twice as ugly.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "raving"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "coaxing"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "whiteness.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "sink to his knee 蹲下\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "sank to his knees,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "\"You gave me personality."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "No wonder I have no faith in human kindness.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "sensual."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "volcano erupting,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Sissy ducked and covered her ears with her hands."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "tatters"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "sent Trevor sprawling back onto the floor."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "defend\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "fend him off."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "harvesting machine,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "gripped"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "slam it against the side of one of the desks,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "intestines?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "glory\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "glorious"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "pinning him down."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "strained"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "glaring"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a bark of triumph."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "pleading for his forgiveness for bringing him back to life."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "He was quivering from head to foot, but he was still conscious."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "paramedics,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "collider 对撞机\n",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "colliding"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "the two wrestling men,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "rapidly"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "tried to jab at Frank's face again."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "frustration."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "fumbled"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "tossed it to him."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "sitting astride Red Mask"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "driven straight into his ear."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "supreme"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Frank's teeth were clenched,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "soulless"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "uttering"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "continuous hiss, like steam pressure building up to danger level."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "gripping"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "hoarsely."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "martyr?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "I came out of the whiteness."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "explorers,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "It was the first sign of how much physical strain he was under."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "Frank flicked the lighter and a long blue flame curved out of it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "flame"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "crinkled"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "yank his left arm free"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "his face burst into flame,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "hatred"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "They collided with a central pillar"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "still blazing so fiercely"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "scorched."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "a whirlwind"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "which spun around and around and filled the air from floor to ceiling."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER32 - Mask Hunt",
+        "word": "the softly settling ash."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "she had spent alone after Frank had been killed."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "knelt down"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "The policeman was groaning and coughing,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "A bakery,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "restaurant."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "his face speckled with ash."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "pattering footsteps"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "Sissy reached up and patted his hand."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "came weaving their way"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "One of the officers was big bellied,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "brush mustache."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "forensic evidence.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "latent scents"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "\"It was authorized by Lieutenant Booker"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "\"I'm an accredited CPD sketch artist,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "special forensic expertise.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "lunatic.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "promptly."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "a sane answer."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "i think\ni suppose\ni reckon\n",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "The engineers reckon at least a half hour before they can get it working again.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "his breast pocket."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "so long as you don't mind sticking around to make a statement."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "examine the black scorch marks"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "the burns distinctly resembled the outline of a man with one arm outstretched."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "a deliberate lie"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "even to spare the feelings of the loved ones"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "invalid 无效的 n 病弱者\n",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "\"I'm not an invalid,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "go poking around in somebody's private office."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "index finger 食指\nthumb 拇指\n",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "on her index finger jingled."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "reformatory,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "tilting against the railings,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "I used to bound up stairs like a mountain goat.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "take their toll on you.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "They're just building stairs steeper than they used to,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "\"This is very handy indeed,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "They ventured into the offices."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "relocations,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "circus strongman"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "uprooted"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "hunky-dory.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "\"But what about afterward?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "Woods was desperately trying to cover something up-something he was ashamed of."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "a frosted glass door"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "a dried-up yucca plant. A bookshelf, with rows of files and framed photographs"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "almighty."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "tugged the handle, but it was locked."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "was plainly a neat freak,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "paper clips in order of size, and dictation CDs arranged A to Z."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "She maneuvered the box out with her foot so that she wouldn't have to bend too far,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "On the lid was scrawled \"G. Woods, desk\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "matchbooks"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "A blue flashlight with no batteries in it."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "The instruction booklet for an HP desktop printer."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "Nail clippers."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "ballpoint pens,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "all with their ends gnawed."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "roughly carved,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "She found heaps of old receipts, too. Receipts for gas, receipts for pharmaceuticals, receipts for drinks at Japp's"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "They almost prickled her,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "'that poor man' was sending her a dozen roses every week. Fifty-three dollars' worth, including delivery."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "they were having an affair?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "It was premeditated. He meant to hurt her. He might even have intended to kill her.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "some guy who was obsessed with her,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "punish them for cheating on her."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "on the prowl 在徘徊；在潜行 ( 想偷窃等 )\n",
+        "section": "CHAPTER33 - Roses are Red",
+        "word": "There's still a second Red Mask on the prowl,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER34 - Talking to Detective Bellman",
+        "word": "They carried on down."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER34 - Talking to Detective Bellman",
+        "word": "his necktie loosened,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER34 - Talking to Detective Bellman",
+        "word": "mineral water."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER34 - Talking to Detective Bellman",
+        "word": "wearily,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER34 - Talking to Detective Bellman",
+        "word": "psych evaluation."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "took another swig of water and wiped his mouth with the back of his hand."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "They ate a subdued supper that night."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "distracted to cook,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "chili was a chili without beans. She didn't really believe that chili should be eaten with spaghetti,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "hopelessness"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "troopers"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "collect up the plates,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "you think you have the divine right to hunt me down and destroy me.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "retorted."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "I'm so driven by revenge?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "It wasn't cathartic. I didn't feel purged."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "Trevor snatched the phone, and snapped,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "I'm not having my family threatened!"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "the warm evening air."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "trotting up"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "messily"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "Her cheek was sticky"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "listening to the monotonous whine of the automobile's transmission and feeling the bumping and jiggling of the Hornet's suspension."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "sunburned, prickly neck."
+    },
+    {
+        "color": "highlight_yellow",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "That was Uncle Henry's straw hat, with the red snakeskin band around it,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "The prairie was gloomy and seemed to stretch for ever."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "The sky was overcast and heavy with smudgy brown clouds."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "swarms of cicadas."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "It had an odd, irregular rhythm, as if it were being played backward."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "the stormy season."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "看前面\n",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "looked up ahead,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "the clock on the instrument panel"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "They passed a sign that read"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "She gave an involuntary jerk,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "a jerk of sheer terror."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "Sissy was so frightened that she was breathing in little gasps."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "He shifted the Hornet into neutral, so that it was rolling along on nothing but its own momentum."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "So you have to overcome your fear,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "Uncle Henry tugged on the parking brake and climbed out of the car."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "his baggy pants were rippling."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "Some grit flew into her eye,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "Henry led her along by the side of the road,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "blazing star and purple prairie clover were nodding in the wind."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "varnish."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "\"Lift up your eyes,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "The giant was wearing a black coat, with a dark red shirt underneath it."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "narrow chisel cuts for eyes and a wider chisel cut for a mouth."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "the wind made his voice sound very blurry."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "\"It's an advertisement,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "harsh"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER35 - Facing the Giant",
+        "word": "a deep rumble of thunder,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "silvery"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "decent?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "wearing a blue striped shirt"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a few dreamlike moments"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "bones ached."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "rueful smile."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "short-term memory.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "catch alight,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Once the nerve endings are burned away, you might as well be made out of wood.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "路边巨人形象\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "giant roadside figures"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "I always used to close my eyes tight shut whenever we drove past it,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "have been doing sth 一直做某事\never since 自从\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "I've been having dreams about it ever since I first saw one of Molly's sketches of Red Mask."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "\"No doubt about it."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "roadside advertisement"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "meatpacking company"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "\"Wait up a moment,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "disguise themselves as a giant roadside figure"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "draw attention to yourself,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "十足的 完全的\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "darned"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "faint\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "obscure.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "costume 服装 装束\nswimming costume 泳衣\ncostumer 做服装的人 服装供应商\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "swimming costumes."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "thirty-foot 三十英尺\ncorn dolly 玉米推车\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "we have a thirty-foot corn dolly.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "meat packer"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "think that Mr. Boots is intelligent enough not to get into a fight"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "变得不新鲜\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "getting staler"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "leave for school 离开为了上学 去上学\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "She left for school"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "delighted.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Molly looked at her sharply."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a few minutes before noon."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "The day was hot and brassy,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "两层\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "two story"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "斜坡\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "sloping grounds"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "英亩\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "acre,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "driveway:"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a baggy oversized T-shirt"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "slip 滑落 跌倒 疏漏\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "slipped your mind"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "lawn"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "come bursting out of the bushes."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "All the same, without explicitly inviting them in, she opened the door wider"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "hallway,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "freshly decorated,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Over the fireplace hung an amateurish oil painting of a stone bridge with an improbably blue stream flowing underneath it."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "shiny brass firedogs in the fireplace, even though the logs were artificial and the fire itself was electric."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Sissy felt a prickling sensation in her fingers."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "turned several shades darker."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "the probability"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "some potent or meaningful artifact was very close."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "当事人 主顾\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "clients"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "scarf"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "gloves,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "皮肤质感 皮肤特征\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "skin texture?"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "回忆起\n",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "recall."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Along the hallway, second door on the right.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a ceramic plaque"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "its door half ajar."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "particularly tidy,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a cork notice board crammed with postcards and Hudepohl beer mats and takeout menus and family photographs."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "the effervescence on top of a glass of soda."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "overlapped"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "his right earlobe,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "chainsaw had slipped."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "thumbtack"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "advertise"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "fiberglass,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "estimated to weigh 6.3 tons."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "He was severely damaged by lightning in 1974 and removed.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a message scribbled in ballpoint pen,"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "What is important is who it reminds you of.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "I must have gotten confused.\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "right down to the last detail."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "cut with a chisel.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "miraculous.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Red Mask didn't exist before you accused him of attacking you in the elevator, but he sure did afterward.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "both hands held out, as if she were appealing for sanity."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "firewood"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "pulled a crumpled tissue out of her sleeve and blew her nose."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "convinced"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a wooden statue,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "invented"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "You're even crazier than I thought you were!\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "you've been harassing me.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "explanation"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "distinguishing features?\""
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Sissy reached into her purse and took out one of the receipts from Jones the Florists."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "\"A dozen roses, every week for five weeks.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Becker tried to snatch it from her, but Sissy whipped it out of her reach."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "how forgiving she was, how docile, considering what had happened to her."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "fling."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "Becker had to take a deep breath to compose herself."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "a weekend seminar,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "talking about property law and escrow"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "He never admitted it."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "cranky.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "hyped up"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "I should have realized right from the very beginning what he was like."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "ruin my life."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "arrangement."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "we'll see if we can't suffer from collective amnesia as far as you and George Woods are concerned.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "rested a hand on her shoulder."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "can do anything and everything, and a couple of other things besides.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "because he lifted her clear off the ground.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "home territory."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "lair,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "destroy"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER36 - The Face of Fear",
+        "word": "You've betrayed him, so far as he's concerned.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "showdown."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "The bridge had a rumbling metal-grid floor,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "We have a crisis.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "abducted"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "she's terrific."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "favor. I know you were pretty skeptical about what happened"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "\"In all honesty,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "credibility"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "canine"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "In fact, no material evidence to substantiate your story whatsoever.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "the scenting dog,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "It was obvious that he wasn't keen to get involved in any kind of existential argument."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "I'd prefer it if it was just us."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "a siren whoop."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "have anything like the authority to do this."
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "it's totally against CPD procedure."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Civilians under no circumstances are to be put in harm's way during the course of any criminal investigation or arrest operation.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "semiautomatic weapons."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "cremated.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "\"I have to admit that I'm bewildered, Ms."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "there wasn't nobody more skeptical than Mike Kunzel,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "garden-variety massacres, not by a long way."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "promote"
+    },
+    {
+        "color": "highlight_orange",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "She switched off the cell phone and patted Frank on the shoulder."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "grace."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "who were painstakingly going over the parking structure next door,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "it is a dream, of sorts.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "I owe it to Mike Kunzel to see it through to the finish.\""
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "She passed by deserted offices, chairs tipped over, dead computer screens."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "a tight shrinking sensation\n\na prickling sensation\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "tingling sensations,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "opalescent adj. 乳白色的；发乳白光的\nsuffuse 充满 弥漫\n\nsuffuse with 充满\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "her closed eyes were gradually suffused with opalescent light."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "stroke"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "She could see her-a pale, flickering outline, with two dark smudges for eyes."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "let on 泄露 假装\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Don't let on that you can hear me."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "She let herself sink back down again, down to the lobby."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Molly was standing right beside her, biting her thumbnail with anxiety."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "threatened"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "claustrophobia"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "let alone"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "risk vt 冒险\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "we risk the elevator or we have to climb the stairs,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "the lights gradually began to descend:"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Mask character has a penchant for rushing out with his knives going"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "arthritic groan,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "jogged"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "rip his goddamned head off.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "ferociously"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Trevor's family had never been threatened before,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "its mechanism grinding and squeaking,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "lurched,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Deputy was growing increasingly agitated and kept jumping up on his hind legs and clawing at the doors."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "the photographic equipment"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "the windows were still blacked out, with only a few scratches to show that it was sunny outside."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "There was a sour smell of developing fluids,"
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Deputy wasn't put off by the gloom."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "He was straining even harder on his leash,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "strangling."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "The corridor was lined with black-and-white framed photographs"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Frank wound Deputy's leash more tightly around his fist."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "rush him."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Abruptly,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "they could see nothing more than a silhouette. A bulky silhouette, with a squarish head."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "say with thickly voice\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "thickly."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "lunge forward,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "He was gripping her left shoulder"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "whispered."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "eyelashes"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "for\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "come hunting for me"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "working himself up into a righteous rage."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "no less than abortion!\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "\"That's truer than my son knows."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "He kept advancing along the corridor with Victoria in front of him,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Deputy kept snarling and pulling at his leash."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "They retreated all the way along the corridor until they reached the elevators."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "guarantee"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "only an empty shaft with greasy steel cables. A warm draft was blowing softly down it, whistling a sad, reflective tune."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "hoarsely."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "drop her down the elevator shaft."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "drew a thin line of blood."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "One more word from any of you, and it's down she goes!\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "a pathetic squealing noise,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "go 企图 尝试\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "\"That goes for you,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "have 使；让\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "I can't have somebody walking the world"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "any more than you can destroy God."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "spare adj 剩下的，空闲的 vt 让出 抽出；宽恕 赦免；节俭\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "your lovely young daughter will be spared."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "it's down she goes!\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "both fists tightly clenched."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "His expression was unreadable, like a painted wooden figure by a desolate highway, far from anyplace at all."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "a religious experience. The fear. The elation.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "draft 气流\nupdraft 上升气流\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Her hair was ruffled by the updraft."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "appalled,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Frank sprinted forward,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "pushing her past the open elevator shaft,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Deputy bounded up at Red Mask and sank his teeth into his arm."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Frank twisted himself sideways so that both of them could roll clear."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "the dog released his grip on his arm and limped off to the far side of the reception area,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Red Mask clambered to his feet."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "\"Do you think that's going to spare you?\" he spat."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Frank ducked and feinted, but Red Mask kept advancing on him,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "forearm,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Red Mask raised his knife high above his head and was just about to plunge it into Frank's chest,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Frank seized the lapels of Red Mask's coat"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "She hurried to the elevator shaft,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Both Red Mask and Frank were dangling from one of the steel cables in the center of the shaft."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "snatched"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "grip"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "a stepladder"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "wire!\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "\"Let go of my coat!\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "he lurched another six inches downward."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "As preternaturally strong as he was,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "a dark smear of blood."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "as pale as paint water."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "still clinging to the last shadowy vestiges of Red Mask's coat."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "He had no more substance, in reality, than Red Mask."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "as though\n",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "It was just as though he had vanished,"
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER37 - The Falling Girl",
+        "word": "Sissy smeared the tears from her eyes with her fingertips."
+    },
+    {
+        "color": "highlight_blue",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "Bellman was hunkered down next to Deputy, dabbing at his wounds with his handkerchief. Jane Becker was stroking Deputy's head."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "hall."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "\"Souvenir,\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "Sissy opened the drawstring and looked inside."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "melt it down."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "everybody's life is made up of choices and accidents."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "nasty accidents and happy accidents."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "Deputy was still limping a little, but otherwise he looked fit."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "planting some roses?\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "Another souvenir.\""
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "a sheet of cartridge paper."
+    },
+    {
+        "color": "highlight_pink",
+        "note": "",
+        "section": "CHAPTER38 - The Painted Man",
+        "word": "admired it."
     }
 ]

@@ -29,8 +29,23 @@ var style = document.createElement('style');
 style.textContent = `
     #layout{
         overflow: hidden;
-        padding-top:40px;
         padding-bottom:50px;
+        height:100%;
+    }
+    #menu{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height:100%;
+    }
+    #main{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height:100%;
+        padding-bottom: 100px;
+    }
+    .pure-u-1 {
+        padding-top:40px;
+        padding-bottom:100px;
     }
     .show{
         display: block;
@@ -57,7 +72,7 @@ style.textContent = `
     .block:hover #word-btns{
         visibility: visible;
     }
-    
+    .
     .block.backside {
         cursor: pointer;
     }
@@ -160,7 +175,7 @@ style.textContent = `
         #menu-button{
             display: flex;
         }
-        #menu:
+
     }
 `
 
@@ -190,7 +205,7 @@ const main = document.createElement('div');
 layout.id="layout"
 menu.id="menu"
 main.id="main"
-
+main.onscroll = "get_scroll_y()"
 
 const pure_menu = document.createElement('div');
 const pure_menu_list = document.createElement('ul');
@@ -288,7 +303,7 @@ chapters.forEach((chapter,i)=>{
     pure_menu_item.classList.add('pure-menu-item', 'pure-menu-link','link')
     pure_menu_item.setAttribute('for',_chapter)
     
-    pure_menu_item.innerText = chapter.match(/CHAPTER \d+/)[0]
+    pure_menu_item.innerText = chapter.match(/CHAPTER[ ]?\d+/)[0]
     if(i == 0){
         main.querySelector('#'+_chapter).classList.replace('word-item','show')
         pure_menu_item.classList.add('selected')
@@ -319,8 +334,10 @@ menubtn.addEventListener("click",function(e){
 
 shadowRoot.appendChild(menubtn)
 
+
 pure_menu.appendChild(pure_menu_list)
 menu.appendChild(pure_menu)
 layout.appendChild(menu)
 layout.appendChild(main)
 shadowRoot.appendChild(layout)
+
