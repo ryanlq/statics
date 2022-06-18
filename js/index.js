@@ -53,6 +53,9 @@ style.textContent = `
     .word-item{
         display: none;
     }
+    .block{
+        position:relative;
+    }
     .block .word{
         padding:20px;
     }

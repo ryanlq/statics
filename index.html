@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://ryan.github.io/homepage1/" />
     <script src="./js/notedatas.js"></script>
     <link rel="stylesheet" href="./styles/index.css">
     <title>Document</title>
@@ -16,6 +17,14 @@
     </div>
     <div id="host"  >
     </div>
+    <script>
+        // register ServiceWorker, remember to use absolute path!
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.register('/homepage1/js/sw.js', {scope: '/homepage1/'})
+        }
+        
+        // --- Application code here ---
+        </script>
     <script src="./js/iframe.js"></script>
     <script src="./js/index.js"></script>
 </body>
