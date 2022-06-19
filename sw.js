@@ -6,7 +6,8 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/homepage1/index.html',            // add path to those files here
   '/homepage1/js/index.js',            // add path to those files here
   '/homepage1/js/iframe.js',            // add path to those files here
-  '/homepage1/js/notedatas.js'            // add path to those files here
+  '/homepage1/js/notedatas.js',            // add path to those files here
+  '/homepage1/homepage.html'            // add path to those files here
 ]
 
 // Respond with cached resources

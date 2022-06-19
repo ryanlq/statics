@@ -56,6 +56,11 @@ style.textContent = `
     }
     .block{
         position:relative;
+        color:black;
+        min-height: 100px;
+    }
+    .block:hover{
+        min-height: 130px;
     }
     .block .word{
         padding:20px;
@@ -67,11 +72,7 @@ style.textContent = `
         display:none;
     }
     .block:hover .word{
-        background: #d1d67c;
-        border-radius: 10px;
         font-size:22px;
-        color:#000;
-        cursor:pointer;
     }
     .block:hover #word-btns{
         visibility: visible;
@@ -93,12 +94,12 @@ style.textContent = `
         color:#000;
         display: block;
         padding:20px;
-        margin-left:20px;
-        padding-left: 20px;
         position: absolute;
-        background: #dce53e;
-        border-radius:5px;
         font-size:22px;
+        box-shadow: 3px 3px #1d1b1b, -1em 0em 1em #000000;
+        height: 100%;
+        z-index: 99;
+        background-color: antiquewhite;
     }
     .color-wraper{
         height:20px;
@@ -107,20 +108,36 @@ style.textContent = `
         margin-right:10px;
         margin:auto 0;
     }
+    
     .highlight_pink{
-        background-color:pink;
+        background-color:#ff9aac;
     }
     .highlight_blue{
         
-        background-color:blue;
+        background-color:#aeaeff;
     }
     .highlight_yellow{
-        background-color:yellow;
+        background-color:#e7e78a;
         
     }
     .highlight_orange{
         background-color:orange;
+    }
+
+
+    .highlight_pink:hover{
+        background-color:#ecc2c9;
+    }
+    .highlight_blue:hover{
         
+        background-color:#c9c9fa;;
+    }
+    .highlight_yellow:hover{
+        background-color:#f7f798;
+        
+    }
+    .highlight_orange:hover{
+        background-color:#fcd388;
     }
     .link{
         cursor:pointer;
@@ -155,25 +172,54 @@ style.textContent = `
     }
     #word-btns{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;   
         justify-content: space-around;
         margin: auto;
         visibility: hidden;
         position: absolute;
         right: 0;
-        padding-top: 20px;
+        /*padding-top: 20px;*/
         cursor:pointer;
+        height:100%;
         
+    }
+    #word-btns-row2{
+        display: flex;
+        flex-direction: row; 
+        height:50%;
+        background-color:#009553;
+        justify-content: center;
+        align-items: center;
+    }
+    #word-turnover{
+        height:50%;
+        background-color:#666;
+        color:#fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #word-query:hover,#word-copy:hover{
         font-weight:bolder;
 
     }
     #word-query{
-        color: red;
+        background: #950000;
+        color: #eedcdc;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     #word-copy{
-        color: blue;
+        background: #4a9500;
+        color: #380046;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     @media (max-width: 800px) {
         #menu-button{
@@ -225,16 +271,13 @@ chapters.forEach(chapter=>{
     DATAS[chapter].forEach(c=>{
         const {word,color,note} = c
         const wordDiv = document.createElement('div');
-        wordDiv.classList.add("pure-g",'block')
+        wordDiv.classList.add("pure-g",'block',color)
         const html = `
-        <div class="pure-u-2-24 ${color} color-wraper"></div>
         <div class="pure-u-14-24 word" id="word-front" tabindex="0">${word}</div>
         <div class="pure-u-14-24 note" id="word-back"  tabindex="0" >${note_br(note)||word}</div>
         ` 
         wordDiv.innerHTML = html
-        //长按单词正面
-        const front = wordDiv.querySelector('#word-front')
-        const backside = wordDiv.querySelector('#word-back')
+
         
         let x1 = x2 = 0;
 
@@ -251,30 +294,41 @@ chapters.forEach(chapter=>{
             return (x2 - x1) 
 
         }
-        if(isMobie){
-            front.addEventListener('touchstart',(e)=>mousedown_handler(e))
-            front.addEventListener('touchend',(e)=>{ (mouseup_handler(e)>150) && wordDiv.classList.add('backside')})
-            backside.addEventListener('touchstart',(e)=>mousedown_handler(e))
-            backside.addEventListener('touchend',(e)=>{ (mouseup_handler(e)<-150) && wordDiv.classList.remove('backside')})
-    
-        } else {
-            front.addEventListener('click',(e)=> wordDiv.classList.add('backside'))
-            backside.addEventListener('click',(e)=> wordDiv.classList.remove('backside'))
-            backside.addEventListener('mouseleave',function(e){
+
+            wordDiv.addEventListener('mouseleave',function(e){
                 wordDiv.classList.remove('backside')
             })
-        }
+
 
         const buttons = document.createElement('div');
         buttons.id = "word-btns"
         buttons.classList.add('pure-u-6-24')
+        
+        const buttons_row2 = document.createElement('div');
+        buttons_row2.id = "word-btns-row2"
+
+        const turnoverbtn = document.createElement('div');
+        turnoverbtn.id = "word-turnover"
+        turnoverbtn.innerText = "反转"
+        turnoverbtn.addEventListener('click',function(e){
+            if(wordDiv.classList.contains('backside')){
+                wordDiv.classList.remove('backside')
+            }else {
+                wordDiv.classList.add('backside')
+            }
+        })
+
+
         const querybtn = document.createElement('div');
         querybtn.id = "word-query"
         querybtn.innerText = "查询"
         querybtn.addEventListener('click',function(e){
             const words = word.split(' ')
-            words && (words.length>1)
-            dict_frame.src = words && (words.length>1)?(translate_url+words.join('+')):(eudic_url + word)
+            if(words && (words.length>1)){
+                dict_frame.src = translate_url+words.join('+')
+            } else {
+                dict_frame.src =eudic_url + word.replace(/[\.,"]/g,'')
+            }
             if(!frame.classList.contains('dict_show')){
                 frame.classList.add('dict_show')
             }
@@ -292,8 +346,11 @@ chapters.forEach(chapter=>{
                 tips_event_handler= null
             },'1500')
         })
-        buttons.appendChild(copybtn)
-        buttons.appendChild(querybtn)
+        buttons.appendChild(turnoverbtn)
+        
+        buttons_row2.appendChild(copybtn)
+        buttons_row2.appendChild(querybtn)
+        buttons.appendChild(buttons_row2)
 
         wordDiv.appendChild(buttons)
         chapterDiv.appendChild(wordDiv)
