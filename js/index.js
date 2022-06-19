@@ -226,7 +226,7 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             const wordDiv = document.createElement('div');
             // TODO：id = bookneme + id
             wordDiv.id="word_"+id
-            wordDiv.setAttribute('ismarked',(ismarked==''|ismarked=="false")?true:false)
+            wordDiv.setAttribute('ismarked',(ismarked=="true")?true:false)
             //
             wordDiv.classList.add("pure-g",'block',color)
             const html = `
