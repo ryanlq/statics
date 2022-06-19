@@ -97,7 +97,7 @@ style.textContent = `
         position: absolute;
         font-size:22px;
         box-shadow: 3px 3px #1d1b1b, -1em 0em 1em #000000;
-        height: 100%;
+        min-height: 100%;
         z-index: 99;
         background-color: antiquewhite;
     }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  user-scalable=no">
     <link rel="canonical" href="https://ryan.github.io/homepage1/" />
     <script src="./js/notedatas.js"></script>
     <link rel="stylesheet" href="./styles/index.css">
@@ -22,7 +22,18 @@
         if (navigator.serviceWorker) {
           navigator.serviceWorker.register('/homepage1/sw.js', {scope: '/homepage1/'})
         }
-        
+        window.onload = function() {
+            document.addEventListener('touchstart',     
+            function(event) {
+                if (event.touches.length > 1) {
+                event.preventDefault()
+                }
+            })
+            document.addEventListener('gesturestart', 
+            function(event) {
+                event.preventDefault()
+            })
+        }
         // --- Application code here ---
         </script>
     <script src="./js/iframe.js"></script>
