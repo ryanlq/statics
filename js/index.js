@@ -1,406 +1,313 @@
-const tips = document.querySelector('#tips');
-const eudic_url = "https://dict.eudic.net/mdicts/en/"
-const youdao_url = "https://m.youdao.com/dict?le=eng&q="
-const translate_url = "https://www.bing.com/dict/search?q="
-let tips_event_handler = null;
+//全局变量
+let mune_selected = ''
+
+//固定节点
+//---tips---
+const tips = document.querySelector('#tips'); 
+let tips_event_handler = null; //事件句柄
 
 const shadowHost = document.querySelector('#host');
 const shadowRoot = shadowHost.attachShadow({ mode: 'closed' });
-const link = document.createElement('link')
-link.rel = 'stylesheet'
-link.href = './styles/pure-min.css'
-shadowRoot.appendChild(link)
-const responsive_link = document.createElement('link')
-responsive_link.rel = 'stylesheet'
-responsive_link.href = './styles/grids-responsive-min.css'
-shadowRoot.appendChild(link)
 
-const menu_link = document.createElement('link')
-menu_link.rel = 'stylesheet'
-menu_link.href = './styles/menus.css'
-shadowRoot.appendChild(menu_link)
+//常量
+const eudic_url = "https://dict.eudic.net/mdicts/en/"
+const youdao_url = "https://m.youdao.com/dict?le=eng&q="
+const translate_url = "https://www.bing.com/dict/search?q="
 
-// const script = document.createElement('script')
-// script.src = './js/ui.js'
-// shadowRoot.appendChild(script)
-
-
-
-var style = document.createElement('style');
-style.textContent = `
-    #layout{
-        overflow: hidden;
-        padding-bottom:50px;
-        height:100%;
-    }
-    #menu{
-        overflow-x: hidden;
-        overflow-y: scroll;
-        height:100%;
-    }
-    #main{
-        overflow-x: hidden;
-        overflow-y: scroll;
-        height:100%;
-        padding-bottom: 100px;
-    }
-    .pure-u-1 {
-        padding-top:40px;
-        padding-bottom:100px;
-    }
-    .show{
-        display: block;
-    }
-    .word-item{
-        display: none;
-    }
-    .block{
-        position:relative;
-        color:black;
-        min-height: 100px;
-    }
-    .block:hover{
-        min-height: 130px;
-    }
-    .block .word{
-        padding:20px;
-    }
-    .block .word{
-        padding:20px;
-    }
-    .block .note{
-        display:none;
-    }
-    .block:hover .word{
-        font-size:22px;
-    }
-    .block:hover #word-btns{
-        visibility: visible;
-    }
-    .
-    .block.backside {
-        cursor: pointer;
-    }
-    .block.backside .word{
-        visibility: hidden;
-    }
-    .block.backside .color-wraper{
-        
-        position: absolute;
-        margin-top:20px;
-        z-index:22;
-    }
-    .block.backside .note{
-        color:#000;
-        display: block;
-        padding:20px;
-        position: absolute;
-        font-size:22px;
-        box-shadow: 3px 3px #1d1b1b, -1em 0em 1em #000000;
-        min-height: 100%;
-        z-index: 99;
-        background-color: antiquewhite;
-    }
-    .color-wraper{
-        height:20px;
-        width:20px;
-        border-radius:10px;
-        margin-right:10px;
-        margin:auto 0;
-    }
-    
-    .highlight_pink{
-        background-color:#ff9aac;
-    }
-    .highlight_blue{
-        
-        background-color:#aeaeff;
-    }
-    .highlight_yellow{
-        background-color:#e7e78a;
-        
-    }
-    .highlight_orange{
-        background-color:orange;
-    }
-
-
-    .highlight_pink:hover{
-        background-color:#ecc2c9;
-    }
-    .highlight_blue:hover{
-        
-        background-color:#c9c9fa;;
-    }
-    .highlight_yellow:hover{
-        background-color:#f7f798;
-        
-    }
-    .highlight_orange:hover{
-        background-color:#fcd388;
-    }
-    .link{
-        cursor:pointer;
-    }
-    #menu-button{
-        background-color:#df7373;
-        position:fixed;
-        width:60px;
-        height:60px;
-        border-radius:30px;
-        z-index:33;
-        cursor:pointer;
-        right:50px;
-        display:none;
-        justify-content: center;
-        align-items: center;
-        color: black;
-        
-    }
-    .open{
-        margin-left:0px !important;
-    }
-    .pure-menu-item{
-        color:aquamarine;
-    }
-    .pure-menu-item:hover{
-        color:#111;
-    }
-    .pure-menu-item.selected{
-        background: #7b0d0d;
-        color: #ccc;
-    }
-    #word-btns{
-        display: flex;
-        flex-direction: column;   
-        justify-content: space-around;
-        margin: auto;
-        visibility: hidden;
-        position: absolute;
-        right: 0;
-        /*padding-top: 20px;*/
-        cursor:pointer;
-        height:100%;
-        
-    }
-    #word-btns-row2{
-        display: flex;
-        flex-direction: row; 
-        height:50%;
-        background-color:#009553;
-        justify-content: center;
-        align-items: center;
-    }
-    #word-turnover{
-        height:50%;
-        background-color:#666;
-        color:#fff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #word-query:hover,#word-copy:hover{
-        font-weight:bolder;
-
-    }
-    #word-query{
-        background: #950000;
-        color: #eedcdc;
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    #word-copy{
-        background: #4a9500;
-        color: #380046;
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    @media (max-width: 800px) {
-        #menu-button{
-            display: flex;
-        }
-
-    }
-`
-
-shadowRoot.appendChild(style)
-
-
-
-
-var DATAS = {}
-NOTES.forEach(note=>{
-    if(!DATAS[note['section']]){
-        DATAS[note['section']] = [note]
-    } else {
-        DATAS[note['section']].push(note)
-    }
-})
-
-const chapters = Object.keys(DATAS) 
+function createlink(rel,href){
+    const link = document.createElement('link')
+    link.rel = rel
+    link.href = href
+    return link;
+}
 
 function note_br(note){
     if(!note) return false;
     else return note.replace(/\n/g,'<br/>')
 }
-const layout = document.createElement('div');
-const menu = document.createElement('div');
-const main = document.createElement('div');
-layout.id="layout"
-menu.id="menu"
-main.id="main"
-main.onscroll = "get_scroll_y()"
 
-const pure_menu = document.createElement('div');
-const pure_menu_list = document.createElement('ul');
-pure_menu.classList.add('pure-menu')
-pure_menu_list.classList.add('pure-menu-list')
+function create_menubtn(menu){
+
+    var menubtn = document.createElement('div');
+    menubtn.id = "menu-button"
+    menubtn.innerText = 'W';
+    menubtn.addEventListener("click",function(e){
+        menu.classList.contains('open')?menu.classList.remove('open'):menu.classList.add('open')
+    })
+    return menubtn;
+}
 
 
-chapters.forEach(chapter=>{
-    const _chapter = chapter.replace(/ /g,'_')
+
+shadowRoot.appendChild(createlink('stylesheet','./styles/pure-min.css'))
+shadowRoot.appendChild(createlink('stylesheet','./styles/grids-responsive-min.css'))
+shadowRoot.appendChild(createlink('stylesheet','./styles/menus.css'))
+
+var style = document.createElement('style');
+style.textContent = STYLES
+shadowRoot.appendChild(style)
+
+
+
+
+// var DATAS = {}
+// NOTES.forEach(note=>{
+//     if(!DATAS[note['section']]){
+//         DATAS[note['section']] = [note]
+//     } else {
+//         DATAS[note['section']].push(note)
+//     }
+// })
+
+// const chapters = Object.keys(DATAS) 
+// console.log(DATAS)
+
+async function create_menu_lists(selected_callback,callback){
+    
+    const pure_menu_list = document.createElement('ul');
+    pure_menu_list.classList.add('pure-menu-list')
+
+    //top area start
+    const pure_menu_item_top = document.createElement('li');
+    pure_menu_item_top.classList.add('pure-menu-item', 'pure-menu-link','link')
+    pure_menu_item_top.setAttribute('for',"top_area")
+    pure_menu_item_top.innerText = "生词本"
+    pure_menu_item_top.addEventListener("click", function( event ) {
+        pure_menu_list.querySelector('.selected').classList.remove('selected')
+        event.target.classList.add('selected')        
+        selected_callback('top_area')
+        window.scrollTo(0,0) 
+        callback()
+    }, false);
+    pure_menu_list.appendChild(pure_menu_item_top)
+
+    //top area end
+
+    
+    await db.deathmask_chapters.toArray(chapters=>{
+        chapters.forEach((chapter,i)=>{
+            const _chapter = 'CHAPTER_'+chapter['chapter']
+            const pure_menu_item = document.createElement('li');
+            
+            pure_menu_item.classList.add('pure-menu-item', 'pure-menu-link','link')
+            pure_menu_item.setAttribute('for',_chapter)
+            
+            pure_menu_item.innerText = _chapter
+            if(i == 0){
+                selected_callback(_chapter)
+                pure_menu_item.classList.add('selected')
+            }
+            
+            pure_menu_item.addEventListener("click", function( event ) {
+                pure_menu_list.querySelector('.selected').classList.remove('selected')
+                event.target.classList.add('selected')
+
+                
+                selected_callback(event.target.attributes['for'].value)
+                window.scrollTo(0,0) 
+                callback()
+            }, false);
+            pure_menu_list.appendChild(pure_menu_item)
+        })
+    })
+    return pure_menu_list;
+}
+async function create_menus(selected_callback){
+    const menu = document.createElement('div');
+    menu.id="menu"
+    const pure_menu = document.createElement('div');
+    pure_menu.classList.add('pure-menu')    
+    const menu_lists = await create_menu_lists(selected_callback,()=>{
+        menu.classList.contains('open') && menu.classList.remove('open')
+    })
+
+    pure_menu.appendChild(menu_lists)
+
+    menu.appendChild(pure_menu)
+    return menu;
+
+}
+
+function card_buttons(wordDiv,word){
+    const buttons = document.createElement('div');
+    buttons.id = "word-btns"
+    buttons.classList.add('pure-u-6-24')
+
+    const buttons_row1 = document.createElement('div');
+    buttons_row1.id = "word-btns-row1"
+    const buttons_row2 = document.createElement('div');
+    buttons_row2.id = "word-btns-row2"
+
+    const markbtn = document.createElement('div');
+    markbtn.id = "word-mark"
+    markbtn.innerText = wordDiv.getAttribute('ismarked') == 'true'?"-":"+"
+    markbtn.classList.add(wordDiv.getAttribute('ismarked') == 'true'?"remove":"add")
+
+    markbtn.addEventListener('click',async function(e){
+        const ismarked = wordDiv.getAttribute('ismarked')
+        const id = wordDiv.id.replace('word_','')
+        if(ismarked == 'true'){
+            // 取消标记
+            await db_change('deathmask',id,{'ismarked':'false'})
+            markbtn.innerText = "+"
+            markbtn.classList.remove('remove')
+            markbtn.classList.add('add')
+            wordDiv.setAttribute('ismarked','false')
+        } else {
+            //添加标记
+            await db_change('deathmask',id,{'ismarked':'true'})
+            markbtn.innerText = "-"
+            markbtn.classList.remove('add')
+            markbtn.classList.add('remove')
+            wordDiv.setAttribute('ismarked','true')
+        }
+    })
+
+    const turnoverbtn = document.createElement('div');
+    turnoverbtn.id = "word-turnover"
+    turnoverbtn.innerText = "反转"
+    turnoverbtn.addEventListener('click',function(e){
+        
+        if(wordDiv.classList.contains('backside')){
+            wordDiv.classList.remove('backside')
+        }else {
+            wordDiv.classList.add('backside')
+        }
+    })
+
+
+    const querybtn = document.createElement('div');
+    querybtn.id = "word-query"
+    querybtn.innerText = "查询"
+    querybtn.addEventListener('click',function(e){
+        const words = word.split(' ')
+        if(words && (words.length>1)){
+            dict_frame.src = translate_url+words.join('+')
+        } else {
+            dict_frame.src =eudic_url + word.replace(/[\.,"]/g,'')
+        }
+        if(!frame.classList.contains('dict_show')){
+            frame.classList.add('dict_show')
+        }
+    })
+
+
+    const copybtn = document.createElement('div');
+    copybtn.id = "word-copy"
+    copybtn.innerText = "复制"
+    copybtn.addEventListener('click',function(e){
+        navigator.clipboard.writeText(word)
+        tips.style['display'] = 'block'
+        setTimeout(() => {
+            tips.style['display'] = 'none';
+            tips_event_handler= null
+        },'1500')
+    })
+    //buttons.appendChild(turnoverbtn)
+    
+    buttons_row1.appendChild(turnoverbtn)
+    buttons_row1.appendChild(markbtn)
+    buttons_row2.appendChild(copybtn)
+    buttons_row2.appendChild(querybtn)
+    buttons.appendChild(buttons_row1)
+    buttons.appendChild(buttons_row2)
+
+    return buttons
+
+}
+async function create_main_contents(selected_menu_id,where='groupby',equals=false){
+    const _chapter = selected_menu_id
     const chapterDiv = document.createElement('div');
     chapterDiv.id=_chapter
     chapterDiv.classList.add('pure-u-1','word-item')
-    DATAS[chapter].forEach(c=>{
-        const {word,color,note} = c
-        const wordDiv = document.createElement('div');
-        wordDiv.classList.add("pure-g",'block',color)
-        const html = `
-        <div class="pure-u-14-24 word" id="word-front" tabindex="0">${word}</div>
-        <div class="pure-u-14-24 note" id="word-back"  tabindex="0" >${note_br(note)||word}</div>
-        ` 
-        wordDiv.innerHTML = html
-
-        
-        let x1 = x2 = 0;
-
-        function mousedown_handler(e){
-            if(isMobie){
-                const backsideElement = chapterDiv.querySelector('.backside')
-                backsideElement && backsideElement.classList.remove('backside')
-            }
-            x1 = e.x || e.touches[0].clientX
-            
-        }
-        function mouseup_handler(e){
-            x2 = e.x || e.changedTouches[0].clientX
-            return (x2 - x1) 
-
-        }
-
+    await db.deathmask.where(where).equals(!equals?selected_menu_id.replace('CHAPTER_',''):equals).toArray(async cards=>{
+        cards.forEach(c=>{
+            const {id,word,color,note,ismarked} = c
+            const wordDiv = document.createElement('div');
+            // TODO：id = bookneme + id
+            wordDiv.id="word_"+id
+            wordDiv.setAttribute('ismarked',(ismarked==''|ismarked=="false")?true:false)
+            //
+            wordDiv.classList.add("pure-g",'block',color)
+            const html = `
+            <div class="pure-u-14-24 word word-front" tabindex="0">${word}</div>
+            <div class="pure-u-14-24 note word-back"  tabindex="0" >${note_br(note)||word}</div>
+            ` 
+            wordDiv.innerHTML = html
             wordDiv.addEventListener('mouseleave',function(e){
-                wordDiv.classList.remove('backside')
+                    wordDiv.classList.remove('backside')
             })
 
+            const buttons = card_buttons(wordDiv,word)
+            wordDiv.appendChild(buttons)
+            chapterDiv.appendChild(wordDiv)
+            
 
-        const buttons = document.createElement('div');
-        buttons.id = "word-btns"
-        buttons.classList.add('pure-u-6-24')
-        
-        const buttons_row2 = document.createElement('div');
-        buttons_row2.id = "word-btns-row2"
-
-        const turnoverbtn = document.createElement('div');
-        turnoverbtn.id = "word-turnover"
-        turnoverbtn.innerText = "反转"
-        turnoverbtn.addEventListener('click',function(e){
-            if(wordDiv.classList.contains('backside')){
-                wordDiv.classList.remove('backside')
-            }else {
-                wordDiv.classList.add('backside')
-            }
         })
-
-
-        const querybtn = document.createElement('div');
-        querybtn.id = "word-query"
-        querybtn.innerText = "查询"
-        querybtn.addEventListener('click',function(e){
-            const words = word.split(' ')
-            if(words && (words.length>1)){
-                dict_frame.src = translate_url+words.join('+')
-            } else {
-                dict_frame.src =eudic_url + word.replace(/[\.,"]/g,'')
-            }
-            if(!frame.classList.contains('dict_show')){
-                frame.classList.add('dict_show')
-            }
-        })
-
-
-        const copybtn = document.createElement('div');
-        copybtn.id = "word-copy"
-        copybtn.innerText = "复制"
-        copybtn.addEventListener('click',function(e){
-            navigator.clipboard.writeText(word)
-            tips.style['display'] = 'block'
-            setTimeout(() => {
-                tips.style['display'] = 'none';
-                tips_event_handler= null
-            },'1500')
-        })
-        buttons.appendChild(turnoverbtn)
-        
-        buttons_row2.appendChild(copybtn)
-        buttons_row2.appendChild(querybtn)
-        buttons.appendChild(buttons_row2)
-
-        wordDiv.appendChild(buttons)
-        chapterDiv.appendChild(wordDiv)
     })
-    main.appendChild(chapterDiv)
-})
+    return chapterDiv
+}
+
+async function create_top_area(show_action){
+    // const topArea = document.createElement('div');
+    
+    // topArea.id="top_area"
+    // topArea.classList.add('pure-u-1','word-item')
+
+    // vocabulary_notes = document.createElement('div');
+    // vocabulary_notes.id="vocabulary_notes"
+    let items = await create_main_contents("top_area",'ismarked','true') 
+
+    // vocabulary_notes.innerText=html
+    // // topArea.appendChild(items)
+    // return topArea
+    return items
+}
+async function create_layout(){
+    const layout = document.createElement('div');
+    layout.id="layout"
+    
+    const main = document.createElement('div');
+    main.id="main"
+    main.onscroll = "get_scroll_y()"
 
 
-chapters.forEach((chapter,i)=>{
-    const _chapter = chapter.replace(/ /g,'_')
-    const pure_menu_item = document.createElement('li');
-    
-    pure_menu_item.classList.add('pure-menu-item', 'pure-menu-link','link')
-    pure_menu_item.setAttribute('for',_chapter)
-    
-    pure_menu_item.innerText = chapter.match(/CHAPTER[ ]?\d+/)[0]
-    if(i == 0){
-        main.querySelector('#'+_chapter).classList.replace('word-item','show')
-        pure_menu_item.classList.add('selected')
-    }
-    
-    pure_menu_item.addEventListener("click", function( event ) {
+    //let main_content = await create_main_contents(id)
+    let show_action = async (selectorid)=>{
+        const selectElm = main.querySelector("#"+selectorid)
         const _show = main.querySelector('.show')
-        const parent = event.target.parent;
-        pure_menu_list.querySelector('.selected').classList.remove('selected')
-        event.target.classList.add('selected')
-
         _show&&_show.classList.replace('show','word-item')
+        
+        if(selectElm ){
+            selectElm.classList.replace('word-item','show')
+        } else {
+            if(selectorid!=="top_area") {
+                let new_main_content = await create_main_contents(selectorid)
+                new_main_content.classList.replace('word-item','show')
+                main.appendChild(new_main_content)
+            } 
+        }
+    }
 
-        main.querySelector('#'+event.target.attributes['for'].value).classList.replace('word-item','show')
-        window.scrollTo(0,0) 
-        menu.classList.contains('open') && menu.classList.remove('open')
-      }, false);
-    pure_menu_list.appendChild(pure_menu_item)
-})
+    let topArea = await create_top_area((selector)=>show_action(selector))
+    main.appendChild(topArea)
+    let menu = await create_menus((selector)=>show_action(selector))
+    //main.appendChild(main_content)
+    
+    layout.appendChild(menu)
+    layout.appendChild(main)
+    shadowRoot.appendChild(create_menubtn(menu))
+    shadowRoot.appendChild(layout)
+
+}
+
+db.deathmask.count().then(count=>{
+    if(count==0){
+        setTimeout(create_layout(), 5000 )
+    }else{
+        create_layout()
+    }
+}).catch(e=>console.error(e))
 
 
-var menubtn = document.createElement('div');
-menubtn.id = "menu-button"
-menubtn.innerText = 'W';
-menubtn.addEventListener("click",function(e){
-    menu.classList.contains('open')?menu.classList.remove('open'):menu.classList.add('open')
-})
-
-shadowRoot.appendChild(menubtn)
-
-
-pure_menu.appendChild(pure_menu_list)
-menu.appendChild(pure_menu)
-layout.appendChild(menu)
-layout.appendChild(main)
-shadowRoot.appendChild(layout)
 
