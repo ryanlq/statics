@@ -8,6 +8,7 @@ window.STYLES = `
     overflow-x: hidden;
     overflow-y: scroll;
     height:100%;
+    z-index:100;
 }
 #main{
     overflow-x: hidden;
@@ -30,10 +31,10 @@ window.STYLES = `
     color:black;
     min-height: 100px;
     border: 1px solid #000;
+    cursor:pointer;
 }
 .block:hover{
     min-height: 130px;
-    cursor:pointer;
 }
 .block .word{
     padding:20px;
@@ -50,7 +51,7 @@ window.STYLES = `
 .block:hover #word-btns{
     visibility: visible;
 }
-.
+
 .block.backside {
     cursor: pointer;
 }
@@ -213,6 +214,19 @@ window.STYLES = `
     justify-content: center;
     align-items: center;
 }
+#back-editor{
+    position:absolute;
+    top:0;
+    right:0;
+    padding:10px;
+    background-color:#2b0008;
+    color:#fff;
+    font-size:16px;
+}
+#back-editor:hover{
+    background-color:#5b0008;
+}
+
 @media (max-width: 800px) {
     #menu-button{
         display: flex;

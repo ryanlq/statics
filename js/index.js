@@ -230,12 +230,42 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             //
             wordDiv.classList.add("pure-g",'block',color)
             const html = `
-            <div class="pure-u-14-24 word word-front" tabindex="0">${word}</div>
-            <div class="pure-u-14-24 note word-back"  tabindex="0" >${note_br(note)||word}</div>
-            ` 
+                <div class="pure-u-14-24 word word-front" >${word}</div>
+                <div class="pure-u-14-24 note word-back"  >
+                    <div>${note_br(note)||word}</div>
+                    <div id="back-editor" for="${id}">编辑</div>
+                </div>
+            `
             wordDiv.innerHTML = html
+            wordDiv.querySelector('#back-editor').addEventListener('click',function(e){
+                const popup_content = `
+                    <div class="word" contenteditable="true">${word}</div>
+                    <div class="note" contenteditable="true">${note_br(note)||''}</div>
+                    <div class="buttons">
+                        <button class="cancle" type="button" >取消</button>
+                        <button class="save" type="button" >保存</button>
+                    </div>
+                `
+                POPUP.innerHTML = popup_content;
+                POPUP.querySelector('.save').addEventListener('click',async function(e){
+                    const word = POPUP.querySelector('.word').innerText
+                    const note = POPUP.querySelector('.note').innerText
+                    await db_change('deathmask',id,{word,note})
+                    POPUP_COVER.classList.add('hide')
+                })
+                
+                POPUP.querySelector('.cancle').addEventListener('click',async function(e){
+                    
+                    POPUP_COVER.classList.add('hide')
+                })
+                POPUP_COVER.classList.toggle('hide')
+            })
             wordDiv.addEventListener('mouseleave',function(e){
+                
+                if(wordDiv.id !== e.target.id){
                     wordDiv.classList.remove('backside')
+                }
+                
             })
 
             const buttons = card_buttons(wordDiv,word)
@@ -249,20 +279,11 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
 }
 
 async function create_top_area(show_action){
-    // const topArea = document.createElement('div');
-    
-    // topArea.id="top_area"
-    // topArea.classList.add('pure-u-1','word-item')
 
-    // vocabulary_notes = document.createElement('div');
-    // vocabulary_notes.id="vocabulary_notes"
     let items = await create_main_contents("top_area",'ismarked','true') 
-
-    // vocabulary_notes.innerText=html
-    // // topArea.appendChild(items)
-    // return topArea
     return items
 }
+
 async function create_layout(){
     const layout = document.createElement('div');
     layout.id="layout"
@@ -294,10 +315,10 @@ async function create_layout(){
     let menu = await create_menus((selector)=>show_action(selector))
     //main.appendChild(main_content)
     
-    layout.appendChild(menu)
-    layout.appendChild(main)
-    shadowRoot.appendChild(create_menubtn(menu))
-    shadowRoot.appendChild(layout)
+    layout.appendChild(menu);
+    layout.appendChild(main);
+    shadowRoot.appendChild(create_menubtn(menu));
+    shadowRoot.appendChild(layout);
 
 }
 

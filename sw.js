@@ -10,14 +10,14 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/homepage1/js/notedatas.js',            // add path to those files here
   '/homepage1/homepage.html'            // add path to those files here
 ]
-// var tURLS = [                            // Add URL you want to cache in this list.
-//   '/',                     // If you have separate JS/CSS files,
-//   '/index.html',            // add path to those files here
-//   '/js/index.js',            // add path to those files here
-//   '/js/dexie.js',            // add path to those files here
-//   '/js/iframe.js',            // add path to those files here
-//   '/js/notedatas.js',            // add path to those files here
-// ]
+var tURLS = [                            // Add URL you want to cache in this list.
+  '/',                     // If you have separate JS/CSS files,
+  '/index.html',            // add path to those files here
+  '/js/index.js',            // add path to those files here
+  '/js/dexie.js',            // add path to those files here
+  '/js/iframe.js',            // add path to those files here
+  '/js/notedatas.js',            // add path to those files here
+]
 // Respond with cached resources
 self.addEventListener('fetch', function (e) {
   console.log('fetch request : ' + e.request.url)
@@ -43,6 +43,7 @@ self.addEventListener('install', function (e) {
     caches.open(CACHE_NAME).then(function (cache) {
       console.log('installing cache : ' + CACHE_NAME)
       return cache.addAll(URLS)
+      // return cache.addAll(URLS)
     })
   )
 })
