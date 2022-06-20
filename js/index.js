@@ -260,11 +260,13 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
                 })
                 POPUP_COVER.classList.toggle('hide')
             })
-            wordDiv.addEventListener('mouseleave',function(e){
-                
-                if(wordDiv.id === e.target.id){
-                    wordDiv.classList.remove('backside')
+            wordDiv.addEventListener('click',async function(e){
+                const backsideElem = chapterDiv.querySelector('.backside')
+                if(backsideElem && (backsideElem.id !== wordDiv.id)){
+                    backsideElem.classList.remove('backside')
                 }
+                await db_change('positions','deathmask',{'noteid':wordDiv.id.replace('word_','')},'book')
+                return false;
                 
             })
 
@@ -314,7 +316,6 @@ async function create_layout(){
     main.appendChild(topArea)
     let menu = await create_menus((selector)=>show_action(selector))
     //main.appendChild(main_content)
-    
     layout.appendChild(menu);
     layout.appendChild(main);
     shadowRoot.appendChild(create_menubtn(menu));
@@ -322,11 +323,36 @@ async function create_layout(){
 
 }
 
-db.deathmask.count().then(count=>{
+async function set_position(){
+    const count = await db.positions.count()
+    if(count > 0){
+        let pos = await db.positions.where('book').equals('deathmask').toArray()
+        let note = await db.deathmask.where(':id').equals(parseInt(pos[0]['noteid'])).toArray()
+        return note.length>0?note[0]:false;
+    } else{
+        return false
+    }
+}
+
+db.deathmask.count().then(async count=>{
     if(count==0){
         setTimeout(create_layout(), 5000 )
     }else{
-        create_layout()
+        const location = await set_position()
+        if(location){
+            const {id,groupby} = location
+            
+            await create_layout()
+            setTimeout(() => {
+                groupby&&shadowRoot.querySelector('[for=CHAPTER_'+groupby+']').click()
+            }, 100);
+            
+            setTimeout(() => {
+                const card = shadowRoot.querySelector('#word_'+id)
+                shadowRoot.querySelector('#main').scrollTo(0,card.offsetTop)
+            }, 1000);
+            
+        }
     }
 }).catch(e=>console.error(e))
 

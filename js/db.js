@@ -12,13 +12,14 @@ db.version(1).stores({
     groupby,
     ismarked`,
   deathmask_chapters:"++id,chapter",
-
+  positions:"&book,noteid,chapterid",
 });
 
 
 db.deathmask.count().then(count=>{
   if(count==0){
     db.deathmask.bulkPut(NOTES_DB).catch(err => {alert("Ouch... " + err);});
+    db.positions.bulkPut([{book:'deathmask',noteid:'',chapterid:''}]).catch(err => {alert("Ouch... " + err);});
   }
 
 }).catch(e=>console.error(e))
@@ -31,13 +32,13 @@ db.deathmask_chapters.count().then(count=>{
 
 }).catch(e=>console.error(e))
 
-async function db_change(tablename,id,changes){
+async function db_change(tablename,where,changes,key="id"){
 
   await db.transaction("rw", db[tablename], async () => {
 
 
     // Mark bigfoots:
-    await db[tablename].where("id").equals(parseInt(id)).modify(changes);
+    await db[tablename].where(key).equals(key=="id"?parseInt(where):where).modify(changes);
     console.log("modified!");
 
   }).catch (Dexie.ModifyError, error => {
