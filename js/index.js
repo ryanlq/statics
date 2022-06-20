@@ -262,7 +262,7 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             })
             wordDiv.addEventListener('mouseleave',function(e){
                 
-                if(wordDiv.id !== e.target.id){
+                if(wordDiv.id === e.target.id){
                     wordDiv.classList.remove('backside')
                 }
                 
