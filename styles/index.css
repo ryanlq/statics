@@ -57,10 +57,12 @@ html,body{
     color: #000;
 }
 #popup .word:hover{
+    -webkit-user-select:text;
     cursor: text;
     box-shadow: rgb(255 42 42) 0px 0px 5px 2px inset;
 }
 #popup .note:hover{
+    -webkit-user-select:text;
     cursor: text;
     box-shadow: #46ff00 0px 0px 5px 2px inset;
 }
