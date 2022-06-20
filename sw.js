@@ -8,6 +8,13 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/homepage1/js/dexie.js',            // add path to those files here
   '/homepage1/js/iframe.js',            // add path to those files here
   '/homepage1/js/notedatas.js',            // add path to those files here
+  '/homepage1/js/styles.js',            // add path to those files here
+  '/homepage1/js/init.js',            // add path to those files here
+  '/homepage1/js/db.js',            // add path to those files here
+  '/homepage1/styles/grids-responsive-min.css',            // add path to those files here
+  '/homepage1/styles/index.css',            // add path to those files here
+  '/homepage1/styles/menus.css',            // add path to those files here
+  '/homepage1/styles/pure-min.css',            // add path to those files here
   '/homepage1/homepage.html'            // add path to those files here
 ]
 var tURLS = [                            // Add URL you want to cache in this list.
