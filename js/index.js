@@ -14,6 +14,14 @@ const eudic_url = "https://dict.eudic.net/mdicts/en/"
 const youdao_url = "https://m.youdao.com/dict?le=eng&q="
 const translate_url = "https://www.bing.com/dict/search?q="
 
+function create_element(option){
+    const element = document.createElement(option['tag'] || 'div')
+    option['id'] && (element.id = option['id'] );
+    option['classes']&&option['classes'].length>0 && option['classes'].forEach(_class=>element.classList.add(_class))
+    option['inner'] && (element.innerHTML = option['inner'])
+    return element
+}
+
 function createlink(rel,href){
     const link = document.createElement('link')
     link.rel = rel
@@ -128,6 +136,18 @@ async function create_menus(selected_callback){
 
 }
 
+function query(word){
+    const words = word.split(' ')
+    if(words && (words.length>1)){
+        dict_frame.src = translate_url+words.join('+')
+    } else {
+        dict_frame.src =eudic_url + word.replace(/[\.,"]/g,'')
+    }
+    if(!frame.classList.contains('dict_show')){
+        frame.classList.add('dict_show')
+    }
+}
+
 function card_buttons(wordDiv,word){
     const buttons = document.createElement('div');
     buttons.id = "word-btns"
@@ -229,14 +249,46 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             wordDiv.setAttribute('ismarked',(ismarked=="true")?true:false)
             //
             wordDiv.classList.add("pure-g",'block',color)
-            const html = `
-                <div class="pure-u-14-24 word word-front" >${word}</div>
-                <div class="pure-u-14-24 note word-back"  >
-                    <div>${note_br(note)||word}</div>
-                    <div id="back-editor" for="${id}">编辑</div>
-                </div>
+            const word_group = word.split(' ')
+            let ietls_icon = null
+            let bang =null
+
+            if(word_group ){
+                if(word_group.length==1){
+                    if(ielts_words.includes(word.replace(/[\.,"]/g,''))){
+                        ietls_icon = create_element('div','',['ielts-icon'])
+                    }
+                } else {
+                    const slices = word.replace(/["\']/g,'').split(/[ ,\.]/g)
+                    const matchs = slices.filter(s=>s.length>3&&ielts_words.includes(s));
+                    if(matchs.length>0){
+                        ietls_icon = create_element({tag:"img",classes:["ielts-icon"]})
+                        ietls_icon.src="#"
+                        ietls_icon.title="雅思3900词汇"
+                        bang = create_element({classes:["bang"]})
+                        matchs.forEach(ielt_word=>{
+                            ielt = create_element({classes:["cell"],inner:ielt_word})
+                            ielt.addEventListener('click',(e)=>query(ielt_word))
+                            bang.appendChild(ielt)
+                        })
+                    }
+                }
+
+            } 
+            const word_card = create_element({classes:["pure-u-14-24","word","word-front"],inner:word})
+
+            const note_card_html = `
+            <div>${note_br(note)||word}</div>
+            <div id="back-editor" for="${id}">编辑</div>
             `
-            wordDiv.innerHTML = html
+            const note_card = create_element({classes:["pure-u-14-24","note","word-front"],inner:note_card_html})
+
+            ietls_icon && wordDiv.appendChild(ietls_icon)
+            bang && wordDiv.appendChild(bang)
+            bang&&console.log(bang.innerHTML)
+            wordDiv.appendChild(word_card) 
+            wordDiv.appendChild(note_card) 
+
             wordDiv.querySelector('#back-editor').addEventListener('click',function(e){
                 const popup_content = `
                     <div class="word" contenteditable="true">${word}</div>

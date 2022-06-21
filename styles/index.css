@@ -55,6 +55,7 @@ html,body{
     text-indent: 10px;
     line-height: 2;
     color: #000;
+    overflow-y: auto;
 }
 #popup .word:hover{
     -webkit-user-select:text;

@@ -33,6 +33,36 @@ window.STYLES = `
     border: 1px solid #000;
     cursor:pointer;
 }
+.ielts-icon{
+    position: absolute;
+    padding: 1px;
+    font-size: xx-small;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+    width: 10px;
+    border: 3px solid #ab0a0a;
+    border-radius: 7px;
+    color: green;
+}
+.bang{
+    margin-left: 30px;
+    position: absolute;
+    display: flex;
+}
+.bang .cell{
+    letter-spacing: normal;
+    background-color: ghostwhite;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: 1px solid;
+    margin-left:5px;
+}
+.bang .cell:hover{
+    background-color:#ffe4e487;
+}
 .block:hover{
     min-height: 130px;
 }
