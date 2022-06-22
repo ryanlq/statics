@@ -339,11 +339,23 @@ async function create_top_area(show_action){
 }
 
 function caches_switcher(){
-    const functions = create_element({classes:['pure-u-1-5']}),
+    const functions = create_element({classes:['functions','pure-u-1-5']}),
     switcher = create_element({classes:['pure-button'],inner:"清缓存"});
-    // switcher.addEventListener('click',async function(e){
-    //     if(!caches) return ;
-    // })
+    switcher.addEventListener('click',async function(e){
+        const target = e.target
+        if(!navigator.serviceWorker) return ;
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            for(let registration of registrations) {
+                registration.unregister();
+            } 
+        }).then(r=>{
+            target.innerText = "成功！"
+            setTimeout(()=>target.innerText = "清缓存",2000)
+        }).catch(r=>{
+            target.innerText = "错误！"
+            setTimeout(()=>target.innerText = "清缓存",2000)
+        });
+    })
     functions.appendChild(switcher);
     return functions
     
@@ -354,11 +366,7 @@ async function create_layout(){
          main_wraper = create_element({id:"main_wrapper"}),
          main = create_element({id:"main"}),
          title_aera  = create_element({classes:["title-area",'pure-g']}),
-         title = create_element({classes:['pure-u-4-5'],inner:"标题"});
-    title_aera.appendChild(title)
-    // title_aera.appendChild(caches_switcher())
-
-    main_wraper.appendChild(title_aera)
+         title = create_element({id:"note_title",classes:['pure-u-4-5']});
 
 
     //let main_content = await create_main_contents(id)
@@ -380,8 +388,13 @@ async function create_layout(){
 
     let topArea = await create_top_area((selector)=>show_action(selector))
     main.appendChild(topArea)
-    let menu = await create_menus((selector)=>show_action(selector))
+    let menu = await create_menus((selector)=>{show_action(selector);title.innerText=selector;})
     //main.appendChild(main_content)
+
+    
+    title_aera.appendChild(title)
+    title_aera.appendChild(caches_switcher())
+    main_wraper.appendChild(title_aera)
     layout.appendChild(menu);
     main_wraper.appendChild(main)
     layout.appendChild(main_wraper);

@@ -16,7 +16,35 @@ window.STYLES = `
     height: 100%;
     padding-bottom: 100px;
 }
+.title-area{
+    height:40px;
+    width:100%;
+    background-color: #81080861;
+    color: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.functions {
+    background-color:#325161;
+}
+.functions,#note_title{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height:100%;
 
+}
+.functions .pure-button{
+    background-color:#fffaf073;
+    padding: 5px;
+    font-size: 12px;
+}
+.functions .pure-button:hover{
+    background-color:floralwhite;
+    padding: 5px;
+    font-size: 12px;
+}
 #main{
     height:100%;
     padding-bottom: 100px;

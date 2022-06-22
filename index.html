@@ -30,7 +30,7 @@
     <script>
         // register ServiceWorker, remember to use absolute path!
         if (navigator.serviceWorker) {
-          navigator.serviceWorker.register('/homepage1/sw.js', {scope: '/homepage1/'})
+          navigator.serviceWorker.register('/homepage1/sw.js?v=3', {scope: '/homepage1/'})
         }
         window.onload = function() {
             document.addEventListener('touchstart',function (event) {
