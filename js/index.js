@@ -431,7 +431,7 @@ db.deathmask.count().then(async count=>{
                 
                 setTimeout(() => {
                     const card = shadowRoot.querySelector('#word_'+id)
-                    shadowRoot.querySelector('#main').scrollTo(0,card.offsetTop)
+                    shadowRoot.querySelector('#main_wrapper').scrollTo(0,card.offsetTop-40)
                 }, 1000);
             } catch(e){
                 alert(e)

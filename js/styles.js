@@ -181,18 +181,16 @@ window.STYLES = `
 }
 #menu-button{
     background-color:#0000007d;
-    color:wheat
+    color:wheat;
     position:fixed;
     width:40px;
     height:40px;
-    border-radius:20px;
     z-index:33;
     cursor:pointer;
     right:150px;
     display:none;
     justify-content: center;
     align-items: center;
-    color: black;
     
 }
 
