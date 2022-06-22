@@ -133,7 +133,7 @@ async function create_menus(selected_callback){
     menu.appendChild(pure_menu)
     menu.addEventListener("mouseleave",(e)=>{
         if(isMobie || document.body.clientWidth<800){
-            menu.classList.contains('open')?menu.classList.remove('open'):menu.classList.add('open')
+            menu.classList.contains('open') && menu.classList.remove('open')
         }
     })
     return menu;
