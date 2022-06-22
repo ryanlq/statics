@@ -3,9 +3,10 @@ var VERSION = 'version_03'              // Version of the off-line cache (change
 var CACHE_NAME = APP_PREFIX + VERSION
 var URLS = [                            // Add URL you want to cache in this list.
   '/homepage1/',                     // If you have separate JS/CSS files,
-  // '/homepage1/index.html',            // add path to those files here
-  // '/homepage1/js/index.js',            // add path to those files here
+  '/homepage1/index.html',            // add path to those files here
+  '/homepage1/js/index.js',            // add path to those files here
   '/homepage1/js/dexie.js',            // add path to those files here
+  '/homepage1/favicon.ico',            // add path to those files here
   '/homepage1/js/iframe.js',            // add path to those files here
   '/homepage1/js/notedatas.js',            // add path to those files here
   '/homepage1/js/styles.js',            // add path to those files here

@@ -285,7 +285,6 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
 
             ietls_icon && wordDiv.appendChild(ietls_icon)
             bang && wordDiv.appendChild(bang)
-            bang&&console.log(bang.innerHTML)
             wordDiv.appendChild(word_card) 
             wordDiv.appendChild(note_card) 
 
