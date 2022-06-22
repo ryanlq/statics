@@ -10,9 +10,14 @@ window.STYLES = `
     height:100%;
     z-index:100;
 }
-#main{
+#main_wrapper{
     overflow-x: hidden;
     overflow-y: scroll;
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+#main{
     height:100%;
     padding-bottom: 100px;
 }
@@ -54,14 +59,14 @@ window.STYLES = `
 }
 .bang .cell{
     letter-spacing: normal;
-    background-color: ghostwhite;
+    background-color:#ffe4e487;
     padding: 0 10px;
     border-radius: 2px;
     border: 1px solid;
     margin-left:5px;
 }
 .bang .cell:hover{
-    background-color:#ffe4e487;
+    background-color: ghostwhite;
 }
 .block:hover{
     min-height: 130px;

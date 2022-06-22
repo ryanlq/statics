@@ -338,13 +338,27 @@ async function create_top_area(show_action){
     return items
 }
 
-async function create_layout(){
-    const layout = document.createElement('div');
-    layout.id="layout"
+function caches_switcher(){
+    const functions = create_element({classes:['pure-u-1-5']}),
+    switcher = create_element({classes:['pure-button'],inner:"清缓存"});
+    // switcher.addEventListener('click',async function(e){
+    //     if(!caches) return ;
+    // })
+    functions.appendChild(switcher);
+    return functions
     
-    const main = document.createElement('div');
-    main.id="main"
-    main.onscroll = "get_scroll_y()"
+}
+
+async function create_layout(){
+    const layout = create_element({id:"layout"}),
+         main_wraper = create_element({id:"main_wrapper"}),
+         main = create_element({id:"main"}),
+         title_aera  = create_element({classes:["title-area",'pure-g']}),
+         title = create_element({classes:['pure-u-4-5'],inner:"标题"});
+    title_aera.appendChild(title)
+    // title_aera.appendChild(caches_switcher())
+
+    main_wraper.appendChild(title_aera)
 
 
     //let main_content = await create_main_contents(id)
@@ -369,7 +383,8 @@ async function create_layout(){
     let menu = await create_menus((selector)=>show_action(selector))
     //main.appendChild(main_content)
     layout.appendChild(menu);
-    layout.appendChild(main);
+    main_wraper.appendChild(main)
+    layout.appendChild(main_wraper);
     shadowRoot.appendChild(create_menubtn(menu));
     shadowRoot.appendChild(layout);
 
