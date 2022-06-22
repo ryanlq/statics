@@ -180,20 +180,22 @@ window.STYLES = `
     cursor:pointer;
 }
 #menu-button{
-    background-color:#df7373;
+    background-color:#0000007d;
+    color:wheat
     position:fixed;
-    width:60px;
-    height:60px;
-    border-radius:30px;
+    width:40px;
+    height:40px;
+    border-radius:20px;
     z-index:33;
     cursor:pointer;
-    right:50px;
+    right:150px;
     display:none;
     justify-content: center;
     align-items: center;
     color: black;
     
 }
+
 .open{
     margin-left:0px !important;
 }
