@@ -16,6 +16,13 @@ window.STYLES = `
     height: 100%;
     padding-bottom: 100px;
 }
+#main_wrapper .progress-line{
+    position:fixed;
+    height:5px;
+    width:100%;
+    top:0;
+    z-index:99;
+}
 .title-area{
     height:40px;
     width:100%;

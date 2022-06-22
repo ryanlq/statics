@@ -362,13 +362,21 @@ function caches_switcher(){
 }
 
 async function create_layout(){
+
     const layout = create_element({id:"layout"}),
          main_wraper = create_element({id:"main_wrapper"}),
          main = create_element({id:"main"}),
          title_aera  = create_element({classes:["title-area",'pure-g']}),
-         title = create_element({id:"note_title",classes:['pure-u-4-5']});
+         title = create_element({id:"note_title",classes:['pure-u-4-5']}),
+         progress_line  = create_element({classes:["progress-line",'pure-g']});
 
 
+    main_wraper.addEventListener('scroll',e=>{
+        const percent = 100*(main_wraper.scrollTop/main_wraper.scrollHeight).toFixed(2)
+        progress_line.style.background = `linear-gradient(to right,rgb(26 38 255),${percent+6}%, black)`
+    })
+
+    main_wraper.appendChild(progress_line)
     //let main_content = await create_main_contents(id)
     let show_action = async (selectorid)=>{
         const selectElm = main.querySelector("#"+selectorid)
