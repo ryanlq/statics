@@ -130,8 +130,12 @@ async function create_menus(selected_callback){
     })
 
     pure_menu.appendChild(menu_lists)
-
     menu.appendChild(pure_menu)
+    menu.addEventListener("mouseleave",(e)=>{
+        if(isMobie || document.body.clientWidth<800){
+            menu.classList.contains('open')?menu.classList.remove('open'):menu.classList.add('open')
+        }
+    })
     return menu;
 
 }
@@ -338,15 +342,21 @@ async function create_top_area(show_action){
 }
 
 async function caches_switcher(){
-    const functions = create_element({classes:['functions','pure-u-1-5']}),
-    switcher = create_element({classes:['pure-button'],inner:"清缓存"});
+    const functions = create_element({classes:['functions','pure-u-2-5','pure-u-md-2-5','pure-u-sm-5-5']}),
+    switcher = create_element({classes:['clear','pure-button'],inner:"清缓存"});
     switcher.addEventListener('click',async function(e){
         const target = e.target
         if(!navigator.serviceWorker) return ;
         navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            for(let registration of registrations) {
-                registration.unregister();
-            } 
+            caches.keys().then(keys=>{
+                if(keys&&keys[0]){ 
+                    caches.delete(keys[0]).then(r=>{
+                        for(let registration of registrations) {
+                            registration.unregister();
+                        } 
+                    })
+                }
+            })
         }).then(r=>{
             target.innerText = "成功！"
             setTimeout(()=>target.innerText = "清缓存",2000)
@@ -356,7 +366,14 @@ async function caches_switcher(){
         });
     })
     functions.appendChild(switcher);
-    // const bloburl = await get_db_url();
+    const backup = create_element({id:"backup",classes:['pure-button'],inner:"备份"});
+    backup.addEventListener("click",(e)=>backup_download())
+    
+    functions.appendChild(backup);
+    const recover = create_element({id:"recover",classes:['pure-button'],inner:"导入"});
+    recover.addEventListener("click",(e)=>UPLOADER.click())
+    functions.appendChild(recover);
+    // const bloburl = await get_db_url(); 
     // const dropboxbtn = create_dropbx_sava_btn(bloburl,"kindle_notes_indexdb.json")
     // console.log(dropboxbtn)
     // functions.appendChild(dropboxbtn)
@@ -370,7 +387,7 @@ async function create_layout(){
          main_wraper = create_element({id:"main_wrapper"}),
          main = create_element({id:"main"}),
          title_aera  = create_element({classes:["title-area",'pure-g']}),
-         title = create_element({id:"note_title",classes:['pure-u-4-5']}),
+         title = create_element({id:"note_title",classes:['pure-u-3-5','pure-u-md-3-5','pure-u-sm-5-5']}),
          progress_line  = create_element({classes:["progress-line",'pure-g']});
 
 

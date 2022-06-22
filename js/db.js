@@ -77,8 +77,13 @@ async function get_db_url(){
     return blobUrl
   })
 }
-function backup(){
-  //downloadFileByBlob(blobUrl, 'kindle_notes_indexdb.json')
+async function backup_download(){
+  const url = await get_db_url()
+  downloadFileByBlob(url, 'kindle_notes_indexdb.json')
+    
+}
+function backup_to_dropbox(){
+
 
   var options = {
     files: [ ],
@@ -93,5 +98,25 @@ function backup(){
   url_promise.then(url=>{
     options.files.push({url,filename:'kindle_notes_indexdb.json'})
     Dropbox.save(url, 'kindle_notes_indexdb.json', options)
+  })
+}
+
+// function create_table_from_json_data(tablename,data){
+//   if(data.length>0){
+//     const keys = Object.keys(data[0])
+    
+//   }
+// }
+
+function importdb(tables){
+  const dbtables = JSON.parse(tables)
+  const keys = Object.keys(dbtables)
+  keys.forEach(key=>{
+      if(!db[key]){
+        // create_table_from_json_data(key,dbtables[key])
+      } else {
+        db[key].clear()
+        db[key].bulkPut(dbtables[key]).then(r=>alert('导入成功')).catch(err => {alert("Ouch... " + err);});
+      }
   })
 }

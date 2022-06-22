@@ -43,12 +43,32 @@ window.STYLES = `
 
 }
 .functions .pure-button{
-    background-color:#fffaf073;
     padding: 5px;
     font-size: 12px;
+    border-radius:0px;
+    color: black;
+    font-weight: bold;
 }
+.functions #backup{
+    background-color:#1be3ff;
+}
+.functions #backup:hover{
+    background-color:#aef5ff;
+}
+.functions #recover{
+    background-color:#6aa6ff;
+}
+.functions #recover:hover{
+    background-color:#9bc3ff;
+}
+.functions .clear{
+    background-color:#ffca6a;
+}
+.functions .clear:hover{
+    background-color:orange;
+}
+
 .functions .pure-button:hover{
-    background-color:floralwhite;
     padding: 5px;
     font-size: 12px;
 }
@@ -83,7 +103,7 @@ window.STYLES = `
     align-items: center;
     height: 10px;
     width: 10px;
-    border: 3px solid #ab0a0a;
+    border: 1px solid #9aff18;
     border-radius: 7px;
     color: green;
 }
@@ -187,20 +207,26 @@ window.STYLES = `
     cursor:pointer;
 }
 #menu-button{
-    background-color:#0000007d;
-    color:wheat;
+    background-color:#00000038;
+    color:#777  ;
     position:fixed;
     width:40px;
     height:40px;
     z-index:33;
     cursor:pointer;
-    right:150px;
+    left:20px;
     display:none;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
     
 }
-
+#menu-button:hover{
+    background: beige;
+    color: #000;
+    font-size: larger;
+    font-weight: bolder;
+}
 .open{
     margin-left:0px !important;
 }

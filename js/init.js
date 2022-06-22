@@ -9,3 +9,19 @@ window.NOTES_DB = NOTES.map(note=>{
     }
     return note;
 })
+
+window.UPLOADER = document.createElement('input')
+window.UPLOADER.type = "file"
+window.UPLOADER.addEventListener('change', (e) => {
+    const file = e.target.files[0];
+     if (file) {
+         const reader = new FileReader();
+         reader.readAsText(file);
+         reader.onload = () => { 
+            importdb(reader.result)
+         }
+         reader.onerror = (e) => {
+             console.error(e, '文件或格式错误！')
+         }
+      }
+})
