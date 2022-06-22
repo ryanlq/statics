@@ -49,3 +49,49 @@ async function db_change(tablename,where,changes,key="id"){
       console.error("Generic error: " + error);
   });
 }
+function downloadFileByBlob(blobUrl, filename) {
+  const eleLink = document.createElement('a')
+  eleLink.download = filename
+  eleLink.style.display = 'none'
+  eleLink.href = blobUrl
+  // 触发点击
+  document.body.appendChild(eleLink)
+  eleLink.click()
+  // 然后移除
+  document.body.removeChild(eleLink)
+}
+async function get_db_url(){
+  let tables = {},promises=[],tablenames=[];
+  db.tables.forEach(async table=>{
+    tablenames.push(table.name)
+    promises.push(table.toArray())
+  })
+
+  return Promise.all(promises).then(datas=>{
+    tablenames.forEach((tname,i)=>tables[tname] = datas[i])
+    const blobContent = new Blob(
+      [JSON.stringify(tables, null, 2)],
+      {type : 'application/json'}
+    );
+    const blobUrl = window.URL.createObjectURL(blobContent)
+    return blobUrl
+  })
+}
+function backup(){
+  //downloadFileByBlob(blobUrl, 'kindle_notes_indexdb.json')
+
+  var options = {
+    files: [ ],
+        success: function () {
+            alert("Success! Files saved to your Dropbox.");
+        },
+        progress: function (progress) {},
+        cancel: function () {},
+        error: function (errorMessage) {}
+  };
+  let url_promise = get_db_url()
+  url_promise.then(url=>{
+    options.files.push({url,filename:'kindle_notes_indexdb.json'})
+    Dropbox.save(url, 'kindle_notes_indexdb.json', options)
+  })
+}

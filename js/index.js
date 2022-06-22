@@ -337,7 +337,7 @@ async function create_top_area(show_action){
     return items
 }
 
-function caches_switcher(){
+async function caches_switcher(){
     const functions = create_element({classes:['functions','pure-u-1-5']}),
     switcher = create_element({classes:['pure-button'],inner:"清缓存"});
     switcher.addEventListener('click',async function(e){
@@ -356,6 +356,10 @@ function caches_switcher(){
         });
     })
     functions.appendChild(switcher);
+    // const bloburl = await get_db_url();
+    // const dropboxbtn = create_dropbx_sava_btn(bloburl,"kindle_notes_indexdb.json")
+    // console.log(dropboxbtn)
+    // functions.appendChild(dropboxbtn)
     return functions
     
 }
@@ -400,7 +404,8 @@ async function create_layout(){
 
     
     title_aera.appendChild(title)
-    title_aera.appendChild(caches_switcher())
+    const cachebtn = await caches_switcher()
+    title_aera.appendChild(cachebtn)
     main_wraper.appendChild(title_aera)
     layout.appendChild(menu);
     main_wraper.appendChild(main)
@@ -438,7 +443,7 @@ db.deathmask.count().then(async count=>{
                 
                 setTimeout(() => {
                     const card = shadowRoot.querySelector('#word_'+id)
-                    shadowRoot.querySelector('#main_wrapper').scrollTo(0,card.offsetTop-40)
+                    card && shadowRoot.querySelector('#main_wrapper').scrollTo(0,card.offsetTop-40)
                 }, 1000);
             } catch(e){
                 alert(e)
