@@ -23,6 +23,13 @@ window.STYLES = `
     top:0;
     z-index:99;
 }
+#totop{
+    display:none;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    z-index:99;
+}
 .title-area{
     height:40px;
     width:100%;

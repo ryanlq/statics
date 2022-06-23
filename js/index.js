@@ -46,6 +46,11 @@ function create_menubtn(menu){
 }
 
 
+function create_totop_btn(main_wrap){
+    const totop = create_element({id:"totop",inner:"^"})
+    totop.addEventListener("click",(e)=>main_wrap.scrollTo(0,0))
+    return totop;
+}
 
 shadowRoot.appendChild(createlink('stylesheet','./styles/pure-min.css'))
 shadowRoot.appendChild(createlink('stylesheet','./styles/grids-responsive-min.css'))
@@ -443,12 +448,24 @@ async function create_layout(){
          main = create_element({id:"main"}),
          title_aera  = create_element({classes:["title-area",'pure-g']}),
          title = create_element({id:"note_title",classes:['pure-u-3-5','pure-u-md-3-5','pure-u-sm-5-5']}),
-         progress_line  = create_element({classes:["progress-line",'pure-g']});
-
-
+         progress_line  = create_element({classes:["progress-line",'pure-g']}),
+         totop = create_totop_btn(main_wraper);
+    
+    const clientheight = main_wraper.clientHeight;
+    
     main_wraper.addEventListener('scroll',e=>{
+
+        //progress line update;
         const percent = 100*(main_wraper.scrollTop/main_wraper.scrollHeight).toFixed(2)
         progress_line.style.background = `linear-gradient(to right,rgb(26 38 255),${percent+6}%, black)`
+
+        //control totop button show/hide;
+        if((main_wraper.scrollTop > clientheight) && !totop.classList.contains('show')){
+            totop.classList.add('show')
+        } 
+        if((main_wraper.scrollTop <= clientheight)&&totop.classList.contains('show')){
+            totop.classList.remove('show')
+        }
     })
 
     main_wraper.appendChild(progress_line)
@@ -481,6 +498,7 @@ async function create_layout(){
     main_wraper.appendChild(title_aera)
     layout.appendChild(menu);
     main_wraper.appendChild(main)
+    main_wraper.appendChild(totop)
     layout.appendChild(main_wraper);
     shadowRoot.appendChild(create_menubtn(menu));
     shadowRoot.appendChild(layout);
