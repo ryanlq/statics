@@ -60,7 +60,7 @@ function downloadFileByBlob(blobUrl, filename) {
   // 然后移除
   document.body.removeChild(eleLink)
 }
-async function get_db_url(){
+async function get_db_blob(){
   let tables = {},promises=[],tablenames=[];
   db.tables.forEach(async table=>{
     tablenames.push(table.name)
@@ -73,15 +73,21 @@ async function get_db_url(){
       [JSON.stringify(tables, null, 2)],
       {type : 'text/plain'}
     );
-    const blobUrl = window.URL.createObjectURL(blobContent)
-    return blobUrl
+    return blobContent
   })
+}
+
+async function get_db_url(){
+  const blob = await get_db_blob()
+  const blobUrl = window.URL.createObjectURL(blob)
+  return blobUrl
 }
 async function backup_download(){
   const url = await get_db_url()
   downloadFileByBlob(url, 'kindle_notes_indexdb.json')
     
 }
+
 function backup_to_dropbox(){
 
 
@@ -101,12 +107,28 @@ function backup_to_dropbox(){
   })
 }
 
-// function create_table_from_json_data(tablename,data){
-//   if(data.length>0){
-//     const keys = Object.keys(data[0])
-    
-//   }
-// }
+async function backup_with_streamapi(){
+
+    const blob = await get_db_blob()
+    const fileStream = streamSaver.createWriteStream('kindle_notes_indexdb.json'+(new Date()).valueOf(), {
+      size: blob.size 
+    })
+    const readableStream = blob.stream()
+    if (window.WritableStream && readableStream.pipeTo) {
+      return readableStream.pipeTo(fileStream)
+        .then(() => console.log('done writing'))
+    }
+    window.writer = fileStream.getWriter()
+  
+    const reader = readableStream.getReader()
+    const pump = () => reader.read()
+      .then(res => res.done
+        ? writer.close()
+        : writer.write(res.value).then(pump))
+  
+    pump()
+
+}
 
 function importdb(tables){
   const dbtables = JSON.parse(tables)

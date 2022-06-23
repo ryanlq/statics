@@ -491,8 +491,13 @@ async function set_position(){
     const count = await db.positions.count()
     if(count > 0){
         let pos = await db.positions.where('book').equals('deathmask').toArray()
-        let note = await db.deathmask.where(':id').equals(parseInt(pos[0]['noteid'])).toArray()
-        return note.length>0?note[0]:false;
+        const noteid = pos[0]['noteid'];
+        if(noteid){
+            let note = await db.deathmask.where('id').equals(parseInt(pos[0]['noteid'])).toArray()
+            return note.length>0?note[0]:false;
+        } else {
+            return false;
+        }
     } else{
         return false
     }
