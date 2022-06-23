@@ -71,7 +71,8 @@ async function get_db_blob(){
     tablenames.forEach((tname,i)=>tables[tname] = datas[i])
     const blobContent = new Blob(
       [JSON.stringify(tables, null, 2)],
-      {type : 'text/plain'}
+      // {type : 'text/plain'}
+      {type : 'application/zip'}
     );
     return blobContent
   })
