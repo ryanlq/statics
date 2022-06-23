@@ -71,7 +71,7 @@ async function get_db_url(){
     tablenames.forEach((tname,i)=>tables[tname] = datas[i])
     const blobContent = new Blob(
       [JSON.stringify(tables, null, 2)],
-      {type : 'application/octet-stream'}
+      {type : 'text/plain'}
     );
     const blobUrl = window.URL.createObjectURL(blobContent)
     return blobUrl
