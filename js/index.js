@@ -526,6 +526,8 @@ db.deathmask.count().then(async count=>{
                 alert(e)
             }
             
+        } else {
+            await create_layout()
         }
     }
 }).catch(e=>console.error(e))
