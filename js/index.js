@@ -306,8 +306,8 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             `
             wordDiv.querySelector('#back-editor').addEventListener('click',function(e){
                 const popup_content = card_edit_tabs+`
-                    <textarea class="word" autocapitalize="none">${word}</textarea>
-                    <textarea class="note" autocapitalize="none" disabled placeholder="笔记">${note_br(note)||''}</textarea>
+                    <textarea class="word" autocapitalize="none" ${isMobie?'disabled':''}>${word}</textarea>
+                    <textarea class="note" autocapitalize="none"  placeholder="笔记">${note_br(note)||''}</textarea>
                 `
                 POPUP.style.height = document.body.clientHeight;
                 POPUP.innerHTML = popup_content;
