@@ -10,9 +10,7 @@
     <script src="./js/styles.js"></script>
     <script src="./js/dexie.js"></script>
     <script src="./js/notedatas.js"></script>
-    <script src="./js/init.js"></script>
     <!--script type="text/javascript" src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="e9do5o44abz1mhc"></script-->
-    <script src="./js/db.js"></script>
     
     <link rel="stylesheet" href="./styles/index.css">
     <title>Death Mask Notes</title>
@@ -31,9 +29,9 @@
 
     <script>
         // register ServiceWorker, remember to use absolute path!
-        if (navigator.serviceWorker) {
-          navigator.serviceWorker.register('/homepage1/sw.js?v=3', {scope: '/homepage1/'})
-        }
+        // if (navigator.serviceWorker) {
+        //   navigator.serviceWorker.register('/homepage1/sw.js?v=3', {scope: '/homepage1/'})
+        // }
         window.onload = function() {
             document.addEventListener('touchstart',function (event) {
                     if(event.touches.length>1){
@@ -63,6 +61,8 @@
 
         </script>
         
+    <script src="./js/init.js"></script>
+    <script src="./js/db.js"></script>
     <script src="./js/ielts_words.js"></script>
     <script src="./js/iframe.js"></script>
     <script src="./js/index.js"></script>

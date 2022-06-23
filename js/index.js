@@ -132,7 +132,7 @@ async function create_menus(selected_callback){
     pure_menu.appendChild(menu_lists)
     menu.appendChild(pure_menu)
     menu.addEventListener("mouseleave",(e)=>{
-        if(isMobie || document.body.clientWidth<800){
+        if(isMobie ){
             menu.classList.contains('open') && menu.classList.remove('open')
         }
     })
@@ -292,19 +292,42 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             wordDiv.appendChild(word_card) 
             wordDiv.appendChild(note_card) 
 
-            wordDiv.querySelector('#back-editor').addEventListener('click',function(e){
-                const popup_content = `
-                    <div class="word" contenteditable="true">${word}</div>
-                    <div class="note" contenteditable="true">${note_br(note)||''}</div>
-                    <div class="buttons">
-                        <button class="cancle" type="button" >取消</button>
-                        <button class="save" type="button" >保存</button>
-                    </div>
+            let card_edit_tabs = '<ul  id="popup_tabs" class="buttons">'
+            if(isMobie || document.body.clientWidth<800){
+                card_edit_tabs += `
+                        <li class="edit-frontbtn" >正面</li>
+                        <li class="edit-backbtn">反面</li>
                 `
+            }
+            card_edit_tabs += `
+            <li class="save">保存</li>
+            <li class="cancle">关闭</li>
+            </ul>
+            `
+            wordDiv.querySelector('#back-editor').addEventListener('click',function(e){
+                const popup_content = card_edit_tabs+`
+                    <textarea class="word" autocapitalize="none">${word}</textarea>
+                    <textarea class="note" autocapitalize="none" disabled placeholder="笔记">${note_br(note)||''}</textarea>
+                `
+                POPUP.style.height = document.body.clientHeight;
                 POPUP.innerHTML = popup_content;
+                if(isMobie ){
+                    const frontbtn = POPUP.querySelector('.edit-frontbtn'),
+                        backtbtn = POPUP.querySelector('.edit-backbtn'),
+                        word_area = POPUP.querySelector('.word'),
+                        note_area = POPUP.querySelector('.note');
+                        frontbtn.addEventListener('click',function(e){
+                            word_area.removeAttribute('disabled')
+                            note_area.setAttribute('disabled',true)
+                        })
+                        backtbtn.addEventListener('click',function(e){
+                            note_area.removeAttribute('disabled')
+                            word_area.setAttribute('disabled',true)
+                        })
+                }
                 POPUP.querySelector('.save').addEventListener('click',async function(e){
-                    const word = POPUP.querySelector('.word').innerText
-                    const note = POPUP.querySelector('.note').innerText
+                    const word = POPUP.querySelector('.word').value
+                    const note = POPUP.querySelector('.note').value
                     await db_change('deathmask',id,{word,note})
                     POPUP_COVER.classList.add('hide')
                 })

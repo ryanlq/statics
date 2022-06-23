@@ -44,7 +44,7 @@ html,body{
 #popup .word{
     width:100%;
     height: 30%;
-    border-bottom: 1px solid rgb(4, 4, 4);
+    /* border-bottom: 1px solid rgb(4, 4, 4); */
     cursor: pointer;
     background-color: lightsalmon;
     text-indent: 10px;
@@ -53,8 +53,8 @@ html,body{
 }
 #popup .note{
     width:100%;
-    height: 60%;
-    border-bottom: 1px solid rgb(0, 0, 0);
+    height: 40%;
+    /* border-bottom: 1px solid rgb(0, 0, 0); */
     text-indent: 10px;
     line-height: 2;
     color: #000;
@@ -71,20 +71,18 @@ html,body{
     box-shadow: #46ff00 0px 0px 5px 2px inset;
 }
 
-#popup .word[contenteditable="true"]:focus,
-#popup .note[contenteditable="true"]:focus  {
+#popup textarea  {
     cursor: text;
     outline: none;
     border: none;
+    padding: 0;
+    resize: none;
 }
 
 #popup .buttons{
     width:100%;
-    height: 10%;
     display: flex;
-    flex-direction: row-reverse;
     align-items: center;
-    background-color: sandybrown;
     
 }
 #popup button{
@@ -97,6 +95,66 @@ html,body{
 #popup button:hover{
     background-color:#398597;
     color:#fff;
+}
+
+#popup textarea[disabled]{
+    background-color: rgb(116, 116, 116);
+    color: #fff;
+    height: 40px;
+    overflow: hidden;
+}
+#popup textarea[disabled]:hover{
+    cursor: cell;
+
+}
+#popup_tabs{
+    display: flex;
+    list-style: none;
+    color: #000;
+    padding: 0;
+    margin:0;
+}
+#popup_tabs li{
+    text-decoration-line: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+#popup_tabs .edit-frontbtn,#popup_tabs .edit-backbtn{
+    width: 40%;
+}
+#popup_tabs .cancle,#popup_tabs .save{
+    width: 10%;
+}
+#popup_tabs .save{
+    background: rgb(190 118 118);
+    color: #000;
+}
+#popup_tabs .save:hover{
+    background: rgb(232 29 29);
+    color: #fff;
+}
+#popup_tabs .cancle{
+    background: #bbb;
+    color: #000;
+}
+#popup_tabs .cancle:hover{
+    background: #f2f2f2;
+}
+#popup_tabs .edit-frontbtn{
+    background: burlywood;
+}
+#popup_tabs .edit-frontbtn:hover{
+    background: rgb(245, 217, 179);
+}
+#popup_tabs .edit-backbtn{
+    background: rgb(244, 255, 162);
+}
+#popup_tabs .edit-backbtn:hover{
+    background: rgb(249, 255, 208);
+}
+a{
+    text-decoration: none;
 }
 .hide{
     visibility: hidden;
