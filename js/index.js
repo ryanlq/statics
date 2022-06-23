@@ -422,7 +422,7 @@ async function caches_switcher(){
     })
     functions.appendChild(switcher);
     const backup = create_element({id:"backup",classes:['pure-button'],inner:"备份"});
-    backup.addEventListener("click",(e)=>backup_download())
+    backup.addEventListener("click",(e)=>backup_with_streamapi())
     
     functions.appendChild(backup);
     const recover = create_element({id:"recover",classes:['pure-button'],inner:"导入"});
