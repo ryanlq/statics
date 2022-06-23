@@ -370,23 +370,55 @@ async function caches_switcher(){
     switcher.addEventListener('click',async function(e){
         const target = e.target
         if(!navigator.serviceWorker) return ;
-        navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            caches.keys().then(keys=>{
-                if(keys&&keys[0]){ 
-                    caches.delete(keys[0]).then(r=>{
-                        for(let registration of registrations) {
-                            registration.unregister();
-                        } 
-                    })
-                }
-            })
-        }).then(r=>{
-            target.innerText = "成功！"
-            setTimeout(()=>target.innerText = "清缓存",2000)
-        }).catch(r=>{
-            target.innerText = "错误！"
-            setTimeout(()=>target.innerText = "清缓存",2000)
-        });
+        caches.keys().then(keys=>{
+            if(keys.length){ 
+                keys.forEach(key=>{
+                    caches.open(key).then(function(cache) {
+                        cache.delete('/homepage1/index.html').then(function(response) {
+                          console.log('/homepage1/index.html deleted')
+                        });
+                        cache.delete('/homepage1/js/index.js').then(function(response) {
+                          console.log('/homepage1/js/index.js deleted')
+                        });
+                        cache.delete('/homepage1/js/iframe.js').then(function(response) {
+                          console.log('/homepage1/js/iframe.js deleted')
+                        });
+                        cache.delete('/homepage1/js/init.js').then(function(response) {
+                          console.log('/homepage1/js/init.js deleted')
+                        });
+                        cache.delete('/homepage1/js/db.js').then(function(response) {
+                          console.log('/homepage1/js/db.js deleted')
+                        });
+                        cache.delete('/homepage1/styles/index.css').then(function(response) {
+                          console.log('/homepage1/styles/index.css deleted')
+                        });
+                      }).then(r=>{
+                        target.innerText = "成功！"
+                        setTimeout(()=>target.innerText = "清缓存",2000)
+                    }).catch(r=>{
+                        target.innerText = "错误！"
+                        setTimeout(()=>target.innerText = "清缓存",2000)
+                    });
+                })
+            }
+        })
+        // navigator.serviceWorker.getRegistrations().then(function(registrations) {
+        //     caches.keys().then(keys=>{
+        //         if(keys&&keys[0]){ 
+        //             caches.delete(keys[0]).then(r=>{
+        //                 for(let registration of registrations) {
+        //                     registration.unregister();
+        //                 } 
+        //             })
+        //         }
+        //     })
+        // }).then(r=>{
+        //     target.innerText = "成功！"
+        //     setTimeout(()=>target.innerText = "清缓存",2000)
+        // }).catch(r=>{
+        //     target.innerText = "错误！"
+        //     setTimeout(()=>target.innerText = "清缓存",2000)
+        // });
     })
     functions.appendChild(switcher);
     const backup = create_element({id:"backup",classes:['pure-button'],inner:"备份"});

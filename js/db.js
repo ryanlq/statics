@@ -51,7 +51,7 @@ async function db_change(tablename,where,changes,key="id"){
 }
 function downloadFileByBlob(blobUrl, filename) {
   const eleLink = document.createElement('a')
-  eleLink.download = filename
+  eleLink.download = filename+(new Date()).valueOf()
   eleLink.style.display = 'none'
   eleLink.href = blobUrl
   // 触发点击

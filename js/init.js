@@ -25,14 +25,11 @@ window.UPLOADER.addEventListener('change', (e) => {
          }
       }
 })
-window.isMobie = true;
+window.isMobie = navigator.userAgent.match(/(iPad)|(iPhone)|(Android)/g);
 
-if (document.body.clientWidth<800 || navigator.userAgent.match(/(iPad)|(iPhone)|(Android)/g)){
+if (document.body.clientWidth<800 ){
      isMobie = true;
-} else {
-    isMobie = false
-}
-
+} 
 function small_screen_action(callback){
     if(isMobie || document.body.clientWidth<800){
         return callback()
