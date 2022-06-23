@@ -24,11 +24,21 @@ window.STYLES = `
     z-index:99;
 }
 #totop{
-    display:none;
-    position:fixed;
-    bottom:40px;
-    right:40px;
+    background: #030303;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 40px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
     z-index:99;
+}
+#totop:hover{
+    background-color:#333;
 }
 .title-area{
     height:40px;
