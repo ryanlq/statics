@@ -36,9 +36,7 @@ function note_br(note){
 
 function create_menubtn(menu){
 
-    var menubtn = document.createElement('div');
-    menubtn.id = "menu-button"
-    menubtn.innerText = 'W';
+    var menubtn =create_element({id:"menu-button",inner:"W"})
     menubtn.addEventListener("click",function(e){
         menu.classList.contains('open')?menu.classList.remove('open'):menu.classList.add('open')
     })
@@ -46,11 +44,6 @@ function create_menubtn(menu){
 }
 
 
-function create_totop_btn(main_wrap){
-    const totop = create_element({id:"totop",inner:"^"})
-    totop.addEventListener("click",(e)=>main_wrap.scrollTo(0,0))
-    return totop;
-}
 
 shadowRoot.appendChild(createlink('stylesheet','./styles/pure-min.css'))
 shadowRoot.appendChild(createlink('stylesheet','./styles/grids-responsive-min.css'))
@@ -77,14 +70,11 @@ shadowRoot.appendChild(style)
 
 async function create_menu_lists(selected_callback,callback){
     
-    const pure_menu_list = document.createElement('ul');
-    pure_menu_list.classList.add('pure-menu-list')
+    const pure_menu_list = create_element({tag:"ul",classes:['pure-menu-list']});
 
     //top area start
-    const pure_menu_item_top = document.createElement('li');
-    pure_menu_item_top.classList.add('pure-menu-item', 'pure-menu-link','link')
+    const pure_menu_item_top = create_element({tag:"li",classes:['pure-menu-item', 'pure-menu-link','link'],inner:"生词本"});
     pure_menu_item_top.setAttribute('for',"top_area")
-    pure_menu_item_top.innerText = "生词本"
     pure_menu_item_top.addEventListener("click", function( event ) {
         pure_menu_list.querySelector('.selected').classList.remove('selected')
         event.target.classList.add('selected')        
@@ -100,12 +90,10 @@ async function create_menu_lists(selected_callback,callback){
     await db.deathmask_chapters.toArray(chapters=>{
         chapters.forEach((chapter,i)=>{
             const _chapter = 'CHAPTER_'+chapter['chapter']
-            const pure_menu_item = document.createElement('li');
+            const pure_menu_item = create_element({tag:"li",classes:['pure-menu-item', 'pure-menu-link','link'],inner:_chapter});
             
-            pure_menu_item.classList.add('pure-menu-item', 'pure-menu-link','link')
             pure_menu_item.setAttribute('for',_chapter)
             
-            pure_menu_item.innerText = _chapter
             if(i == 0){
                 selected_callback(_chapter)
                 pure_menu_item.classList.add('selected')
@@ -126,10 +114,8 @@ async function create_menu_lists(selected_callback,callback){
     return pure_menu_list;
 }
 async function create_menus(selected_callback){
-    const menu = document.createElement('div');
-    menu.id="menu"
-    const pure_menu = document.createElement('div');
-    pure_menu.classList.add('pure-menu')    
+    const menu = create_element({id:"menu"});
+    const pure_menu = create_element({classes:["pure-menu"]});   
     const menu_lists = await create_menu_lists(selected_callback,()=>{
         menu.classList.contains('open') && menu.classList.remove('open')
     })
@@ -158,19 +144,17 @@ function query(word){
 }
 
 function card_buttons(wordDiv,word){
-    const buttons = document.createElement('div');
-    buttons.id = "word-btns"
-    buttons.classList.add('pure-u-6-24')
+    
+    const buttons = create_element({id:"word-btns",classes:['pure-u-6-24']});
 
-    const buttons_row1 = document.createElement('div');
-    buttons_row1.id = "word-btns-row1"
-    const buttons_row2 = document.createElement('div');
-    buttons_row2.id = "word-btns-row2"
+    const buttons_row1 = create_element({id:"word-btns-row1"});
+    const buttons_row2 = create_element({id:"word-btns-row2"});
 
-    const markbtn = document.createElement('div');
-    markbtn.id = "word-mark"
-    markbtn.innerText = wordDiv.getAttribute('ismarked') == 'true'?"-":"+"
-    markbtn.classList.add(wordDiv.getAttribute('ismarked') == 'true'?"remove":"add")
+    const markbtn = create_element({id:"word-mark",
+        inner:wordDiv.getAttribute('ismarked') == 'true'?"-":"+",
+        classes:[wordDiv.getAttribute('ismarked') == 'true'?"remove":"add"]
+    });
+
 
     markbtn.addEventListener('click',async function(e){
         const ismarked = wordDiv.getAttribute('ismarked')
@@ -192,9 +176,7 @@ function card_buttons(wordDiv,word){
         }
     })
 
-    const turnoverbtn = document.createElement('div');
-    turnoverbtn.id = "word-turnover"
-    turnoverbtn.innerText = "反转"
+    const turnoverbtn = create_element({id:"word-turnover",inner:"反转"});
     turnoverbtn.addEventListener('click',function(e){
         
         if(wordDiv.classList.contains('backside')){
@@ -204,10 +186,7 @@ function card_buttons(wordDiv,word){
         }
     })
 
-
-    const querybtn = document.createElement('div');
-    querybtn.id = "word-query"
-    querybtn.innerText = "查询"
+    const querybtn = create_element({id:"word-query",inner:"查询"});
     querybtn.addEventListener('click',function(e){
         const words = word.split(' ')
         if(words && (words.length>1)){
@@ -221,9 +200,7 @@ function card_buttons(wordDiv,word){
     })
 
 
-    const copybtn = document.createElement('div');
-    copybtn.id = "word-copy"
-    copybtn.innerText = "复制"
+    const copybtn = create_element({id:"word-copy",inner:"复制"});
     copybtn.addEventListener('click',function(e){
         navigator.clipboard.writeText(word)
         tips.style['display'] = 'block'
@@ -246,18 +223,15 @@ function card_buttons(wordDiv,word){
 }
 async function create_main_contents(selected_menu_id,where='groupby',equals=false){
     const _chapter = selected_menu_id
-    const chapterDiv = document.createElement('div');
-    chapterDiv.id=_chapter
-    chapterDiv.classList.add('pure-u-1','word-item')
+    const chapterDiv = create_element({id:_chapter,classes:['pure-u-1','word-item']});
+
     await db.deathmask.where(where).equals(!equals?selected_menu_id.replace('CHAPTER_',''):equals).toArray(async cards=>{
         cards.forEach(c=>{
             const {id,word,color,note,ismarked} = c
-            const wordDiv = document.createElement('div');
+            
+            const wordDiv = create_element({id:"word_"+id,classes:["pure-g",'block',color]});
             // TODO：id = bookneme + id
-            wordDiv.id="word_"+id
             wordDiv.setAttribute('ismarked',(ismarked=="true")?true:false)
-            //
-            wordDiv.classList.add("pure-g",'block',color)
             const word_group = word.split(' ')
             let ietls_icon = null
             let bang =null
@@ -311,8 +285,8 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
             `
             wordDiv.querySelector('#back-editor').addEventListener('click',function(e){
                 const popup_content = card_edit_tabs+`
-                    <textarea class="word" autocapitalize="none" ${isMobie?'disabled':''}>${word}</textarea>
-                    <textarea class="note" autocapitalize="none"  placeholder="笔记">${note_br(note)||''}</textarea>
+                    <textarea class="word" autocapitalize="none">${word}</textarea>
+                    <textarea class="note" autocapitalize="none" disabled placeholder="笔记">${note_br(note)||''}</textarea>
                 `
                 POPUP.style.height = document.body.clientHeight;
                 POPUP.innerHTML = popup_content;
@@ -343,15 +317,71 @@ async function create_main_contents(selected_menu_id,where='groupby',equals=fals
                 })
                 POPUP_COVER.classList.toggle('hide')
             })
-            wordDiv.addEventListener('click',async function(e){
+
+            const close_backside = ()=>{
                 const backsideElem = chapterDiv.querySelector('.backside')
                 if(backsideElem && (backsideElem.id !== wordDiv.id)){
                     backsideElem.classList.remove('backside')
                 }
-                await db_change('positions','deathmask',{'noteid':wordDiv.id.replace('word_','')},'book')
-                return false;
-                
-            })
+            }
+
+            if(isMobie){
+
+                let timer = null
+                let startTime = ''
+                let endTime = ''
+      
+                wordDiv.addEventListener('touchstart', function (e) {
+                    startTime = +new Date()
+                    timer = setTimeout(function () { //长按
+                        close_backside()// 关闭反面
+                        
+                        if(wordDiv.classList.contains('backside')){
+                            wordDiv.classList.remove('backside')
+                        }else {
+                            wordDiv.classList.add('backside')
+                        }
+                    }, 700)
+                })
+    
+                wordDiv.addEventListener('touchend', async function (e) {
+                    endTime = +new Date()
+                    clearTimeout(timer)
+                    if (endTime - startTime < 700) { //click
+                        close_backside()// 关闭反面
+                        await db_change('positions','deathmask',{'noteid':wordDiv.id.replace('word_','')},'book') //记录位置
+                    }
+                })
+            } else {
+                wordDiv.addEventListener('click',async function(e){
+                    let target = e.target;
+                    if(!e.target.classList.contains('block')) target = e.target.parentNode
+                    close_backside()// 关闭反面
+                   
+                    await db_change('positions','deathmask',{'noteid':wordDiv.id.replace('word_','')},'book') //记录位置
+                    return false;
+                    
+                })
+                wordDiv.addEventListener('contextmenu',async function(e){
+                   //const top = e.screenY, left =  e.screenX;
+                    // const floatmenu = shadowRoot.querySelector('#floatmenu')
+                    // floatmenu.classList.add('show')
+                    // floatmenu.style.top = top +"px"
+                    // floatmenu.style.left = left +"px"
+                    close_backside()
+                    if(wordDiv.classList.contains('backside')){
+                        wordDiv.classList.remove('backside')
+                    }else {
+                        wordDiv.classList.add('backside')
+                    }
+                    e.preventDefault();
+                    
+                })
+            }
+
+
+
+
 
             const buttons = card_buttons(wordDiv,word)
             wordDiv.appendChild(buttons)
@@ -407,23 +437,7 @@ async function caches_switcher(){
                 })
             }
         })
-        // navigator.serviceWorker.getRegistrations().then(function(registrations) {
-        //     caches.keys().then(keys=>{
-        //         if(keys&&keys[0]){ 
-        //             caches.delete(keys[0]).then(r=>{
-        //                 for(let registration of registrations) {
-        //                     registration.unregister();
-        //                 } 
-        //             })
-        //         }
-        //     })
-        // }).then(r=>{
-        //     target.innerText = "成功！"
-        //     setTimeout(()=>target.innerText = "清缓存",2000)
-        // }).catch(r=>{
-        //     target.innerText = "错误！"
-        //     setTimeout(()=>target.innerText = "清缓存",2000)
-        // });
+
     })
     functions.appendChild(switcher);
     const backup = create_element({id:"backup",classes:['pure-button'],inner:"备份"});
@@ -433,12 +447,17 @@ async function caches_switcher(){
     const recover = create_element({id:"recover",classes:['pure-button'],inner:"导入"});
     recover.addEventListener("click",(e)=>UPLOADER.click())
     functions.appendChild(recover);
-    // const bloburl = await get_db_url(); 
-    // const dropboxbtn = create_dropbx_sava_btn(bloburl,"kindle_notes_indexdb.json")
-    // console.log(dropboxbtn)
-    // functions.appendChild(dropboxbtn)
+
     return functions
     
+}
+
+function create_floatmenu(){
+    const floatmenu = create_element({id:"floatmenu"})
+    //test
+    const testbutton = create_element({id:"testbutton",inner:'test'})
+    floatmenu.appendChild(testbutton)
+    return floatmenu;
 }
 
 async function create_layout(){
@@ -449,23 +468,12 @@ async function create_layout(){
          title_aera  = create_element({classes:["title-area",'pure-g']}),
          title = create_element({id:"note_title",classes:['pure-u-3-5','pure-u-md-3-5','pure-u-sm-5-5']}),
          progress_line  = create_element({classes:["progress-line",'pure-g']}),
-         totop = create_totop_btn(main_wraper);
-    
-    const clientheight = main_wraper.clientHeight;
-    
-    main_wraper.addEventListener('scroll',e=>{
+         floatmenu = create_floatmenu()
+         
 
-        //progress line update;
+    main_wraper.addEventListener('scroll',e=>{
         const percent = 100*(main_wraper.scrollTop/main_wraper.scrollHeight).toFixed(2)
         progress_line.style.background = `linear-gradient(to right,rgb(26 38 255),${percent+6}%, black)`
-
-        //control totop button show/hide;
-        if((main_wraper.scrollTop > clientheight) && !totop.classList.contains('show')){
-            totop.classList.add('show')
-        } 
-        if((main_wraper.scrollTop <= clientheight)&&totop.classList.contains('show')){
-            totop.classList.remove('show')
-        }
     })
 
     main_wraper.appendChild(progress_line)
@@ -498,7 +506,7 @@ async function create_layout(){
     main_wraper.appendChild(title_aera)
     layout.appendChild(menu);
     main_wraper.appendChild(main)
-    main_wraper.appendChild(totop)
+    main_wraper.appendChild(floatmenu)
     layout.appendChild(main_wraper);
     shadowRoot.appendChild(create_menubtn(menu));
     shadowRoot.appendChild(layout);
@@ -531,7 +539,6 @@ db.deathmask.count().then(async count=>{
             
             await create_layout()
             try{
-
                 setTimeout(() => {
                     groupby&&shadowRoot.querySelector('[for=CHAPTER_'+groupby+']').click()
                 }, 300);
@@ -549,6 +556,3 @@ db.deathmask.count().then(async count=>{
         }
     }
 }).catch(e=>console.error(e))
-
-
-

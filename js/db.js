@@ -10,7 +10,8 @@ db.version(1).stores({
     note,
     section,
     groupby,
-    ismarked`,
+    ismarked,
+    level`,
   deathmask_chapters:"++id,chapter",
   positions:"&book,noteid,chapterid",
 });
@@ -71,8 +72,7 @@ async function get_db_blob(){
     tablenames.forEach((tname,i)=>tables[tname] = datas[i])
     const blobContent = new Blob(
       [JSON.stringify(tables, null, 2)],
-      // {type : 'text/plain'}
-      {type : 'application/zip'}
+      {type : 'text/plain'}
     );
     return blobContent
   })

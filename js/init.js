@@ -4,6 +4,7 @@ window.NOTES_DB = NOTES.map(note=>{
     const groupby = note["section"].match(/CHAPTER[ ]?(\d+).*/)[1]
     note['groupby'] = groupby; 
     note['ismarked'] = '';
+    note['level'] = '';
     if(!CHAPTERS_DB.includes(groupby)){
         CHAPTERS_DB.push(groupby)
     }

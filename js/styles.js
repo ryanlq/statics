@@ -23,23 +23,6 @@ window.STYLES = `
     top:0;
     z-index:99;
 }
-#totop{
-    background: #030303;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    margin: 40px;
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index:99;
-}
-#totop:hover{
-    background-color:#333;
-}
 .title-area{
     height:40px;
     width:100%;
@@ -338,6 +321,11 @@ window.STYLES = `
 }
 #back-editor:hover{
     background-color:#5b0008;
+}
+#floatmenu{
+    position:absolute;
+    z-index:99;
+    left:40%;
 }
 
 @media (max-width: 800px) {
