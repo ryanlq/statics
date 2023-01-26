@@ -17,7 +17,7 @@ var URLS = [                            // Add URL you want to cache in this lis
   '/homepage1/styles/index.css',            // add path to those files here
   '/homepage1/styles/menus.css',            // add path to those files here
   '/homepage1/styles/pure-min.css',            // add path to those files here
-  '/homepage1/homepage.html'            // add path to those files here
+  '/homepage1/homepage.html'   ,         // add path to those files here
   '/homepage1/startpage.html'            // add path to those files here
 ]
 
