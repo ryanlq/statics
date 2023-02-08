@@ -114,60 +114,246 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	<base target="_blank"> <!-- Opens all links in a new window -->
 </head>
 <body>
+	<script>
+const types = [
+    "练习",
+    "新闻",
+    "工具",
+    "社交",
+    "开发",
+    "视频门户"
+]
+const items =[
+    {
+        "href": "https://writeandimprove.com/",
+        "title": " write&improve",
+        "icon": "fa-newspaper-o",
+        "type": "练习"
+    },
+    {
+        "href": "https://hanzi-write-common.pages.dev/",
+        "title": " 汉字[cloudflare]",
+        "icon": "fa-newspaper-o",
+        "type": "练习"
+    },
+    {
+        "href": "https://ryanlq.github.io/hanzi-write-common/index.html",
+        "title": " 汉字[github]",
+        "icon": "fa-newspaper-o",
+        "type": "练习"
+    },
+    {
+        "href": "https://news.163.com/",
+        "title": " 网易新闻",
+        "icon": "fa-newspaper-o",
+        "type": "新闻"
+    },
+    {
+        "href": "https://it.ithome.com/",
+        "title": " IT之家",
+        "icon": "fa-newspaper-o",
+        "type": "新闻"
+    },
+    {
+        "href": "https://zh.wikipedia.org/wiki/Portal:%E9%A6%96%E9%A0%81",
+        "title": " 维基百科",
+        "icon": "fa-wikipedia-w",
+        "type": "新闻"
+    },
+    {
+        "href": "https://yyets.dmesg.app/",
+        "title": " 人人影视",
+        "icon": "fa-newspaper-o",
+        "type": "新闻"
+    },
+    {
+        "href": "https://outlook.live.com/calendar/0/view/month",
+        "title": " 日历",
+        "icon": "fa-calendar-o",
+        "type": "工具"
+    },
+    {
+        "href": "http://192.168.50.69/check.php",
+        "title": "树莓派状态",
+        "icon": "fa-calendar-o",
+        "type": "工具"
+    },
+    {
+        "href": "https://to-do.live.com/tasks/today",
+        "title": " 待办",
+        "icon": "fa-sticky-note-o",
+        "type": "工具"
+    },
+    {
+        "href": "https://outlook.live.com/",
+        "title": " hotmail",
+        "icon": "fa-ra",
+        "type": "工具"
+    },
+    {
+        "href": "https://gmail.com/",
+        "title": " Gmail",
+        "icon": "fa-google",
+        "type": "工具"
+    },
+    {
+        "href": "https://www.zoomeye.org/",
+        "title": " zoomeye",
+        "icon": "fa-search",
+        "type": "工具"
+    },
+    {
+        "href": "https://alist.nn.ci/",
+        "title": " Alist",
+        "icon": "fa-search",
+        "type": "工具"
+    },
+    {
+        "href": "https://alist.nn.ci/zh/guide/drivers/aliyundrive.html#%E5%88%B7%E6%96%B0%E4%BB%A4%E7%89%8C",
+        "title": " 阿里token",
+        "icon": "fa-setting",
+        "type": "工具"
+    },
+    {
+        "href": "https://www.niceso.fun/",
+        "title": " 奈斯搜索",
+        "icon": "fa-tree",
+        "type": "工具"
+    },
+    {
+        "href": "http://alist.xiaoya.pro/",
+        "title": " 小雅的alist",
+        "icon": "fa-tree",
+        "type": "工具"
+    },
+    {
+        "href": "https://zh.ifixit.com/Guide",
+        "title": " 万物修理手册",
+        "icon": "fa-hand-spock-o",
+        "type": "工具"
+    },
+    {
+        "href": "https://tweetdeck.twitter.com/",
+        "title": " TweetDeck",
+        "icon": "fa-twitter",
+        "type": "社交"
+    },
+    {
+        "href": "https://facebook.com/",
+        "title": " Facebook",
+        "icon": "fa-facebook",
+        "type": "社交"
+    },
+    {
+        "href": "https://weibo.com/",
+        "title": " 微博",
+        "icon": "fa-weibo",
+        "type": "社交"
+    },
+    {
+        "href": "https://github.com/",
+        "title": " GitHub",
+        "icon": "fa-github",
+        "type": "开发"
+    },
+    {
+        "href": "https://vscode.dev/",
+        "title": " 云ide",
+        "icon": "fa-code",
+        "type": "开发"
+    },
+    {
+        "href": "https://replit.com/~",
+        "title": " replit",
+        "icon": "fa-replit",
+        "type": "开发"
+    },
+    {
+        "href": "https://vercel.com/ryanlq/homepage1~",
+        "title": " vercel网页托管",
+        "icon": "fa-vercel",
+        "type": "开发"
+    },
+    {
+        "href": "https://codepen.io/",
+        "title": " Codepen",
+        "icon": "fa-codepen",
+        "type": "开发"
+    },
+    {
+        "href": "https://www.ddnsto.com/app/#/devices",
+        "title": " ddnsto",
+        "icon": "fa-codepen",
+        "type": "开发"
+    },
+    {
+        "href": "https://stackoverflow.com/",
+        "title": " Stack Overflow",
+        "icon": "fa-stack-overflow",
+        "type": "开发"
+    },
+    {
+        "href": "https://youtube.com/",
+        "title": " YouTube",
+        "icon": "fa-youtube",
+        "type": "视频门户"
+    },
+    {
+        "href": "https://play.spotify.com/browse",
+        "title": " Spotify",
+        "icon": "fa-spotify",
+        "type": "视频门户"
+    },
+    {
+        "href": "https://music.163.com/",
+        "title": " 网易云音乐",
+        "icon": "fa-music",
+        "type": "视频门户"
+    },
+    {
+        "href": "https://bilibili.com/",
+        "title": " 哔哩哔哩",
+        "icon": "fa-twitch",
+        "type": "视频门户"
+    }
+]
+
+		
+
+	</script>
   <div class="wrapper">
-    <h2>练习</h2>
-    <ul>
-      <a href="https://writeandimprove.com/"><li><i class="fa fa-newspaper-o" aria-hidden="true"></i> write&improve</li></a>
-	  <a href="https://hanzi-write-common.pages.dev/"><li><i class="fa fa-newspaper-o" aria-hidden="true"></i> 汉字[cloudflare]</li></a>
-	  <a href="https://ryanlq.github.io/hanzi-write-common/index.html"><li><i class="fa fa-newspaper-o" aria-hidden="true"></i> 汉字[github]</li></a>
 
-	</ul>
-    <h2>新闻</h2>
-    <ul>
-      <a href="https://news.163.com/"><li><i class="fa fa-newspaper-o" aria-hidden="true"></i> 网易新闻</li></a>
-      <a href="https://it.ithome.com/"><li><i class="fa fa-newspaper-o" aria-hidden="true"></i> IT之家</li></a>
-      <a href="https://zh.wikipedia.org/wiki/Portal:%E9%A6%96%E9%A0%81"><li><i class="fa fa-wikipedia-w" aria-hidden="true"></i> 维基百科</li></a>
-      <a href="https://yyets.dmesg.app"><li><i class="fa fa-newspaper-o" aria-hidden="true"></i> 人人影视</li></a>
-    </ul>
-    <h2>工具</h2>
-    <ul>
-		<a href="https://outlook.live.com/calendar/0/view/month"><li><i class="fa fa-calendar-o" aria-hidden="true"></i> 日历</li></a>
-		<a href="http://192.168.50.69/check.php"><li><i class="fa fa-calendar-o" aria-hidden="true"></i>树莓派状态</li></a>
-      <a href="https://to-do.live.com/tasks/today"><li><i class="fa fa-sticky-note-o" aria-hidden="true"></i> 待办</li></a>
-      <a href="https://outlook.live.com/"><li><i class="fa fa-ra" aria-hidden="true"></i> hotmail</li></a>
-	  <a href="https://gmail.com/"><li><i class="fa fa-google" aria-hidden="true"></i> Gmail</li></a>
-      <a href="https://www.zoomeye.org/"><li><i class="fa fa-search" aria-hidden="true"></i> zoomeye</li></a>
-      <a href="https://alist.nn.ci/"><li><i class="fa fa-search" aria-hidden="true"></i> Alist</li></a>
-      <a href="https://alist.nn.ci/zh/guide/drivers/aliyundrive.html#%E5%88%B7%E6%96%B0%E4%BB%A4%E7%89%8C"><li><i class="fa fa-setting" aria-hidden="true"></i> 阿里token</li></a>
-      <a href="https://www.niceso.fun/"><li><i class="fa fa-tree" aria-hidden="true"></i> 奈斯搜索</li></a>
-      <a href="http://alist.xiaoya.pro/"><li><i class="fa fa-tree" aria-hidden="true"></i> 小雅的alist</li></a>
-      <a href="https://zh.ifixit.com/Guide"><li><i class="fa fa-hand-spock-o" aria-hidden="true"></i> 万物修理手册</li></a>
-    </ul>
-    <h2>社交</h2>
-    <ul>
-      <a href="https://tweetdeck.twitter.com/"><li><i class="fa fa-twitter" aria-hidden="true"></i> TweetDeck</li></a>
-      <a href="https://facebook.com/"><li><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</li></a>
-      <a href="https://weibo.com/"><li><i class="fa fa-weibo" aria-hidden="true"></i> 微博</li></a>
-    </ul>
-    <h2>开发</h2>
-    <ul>
-        <a href="https://github.com/"><li><i class="fa fa-github" aria-hidden="true"></i> GitHub</li></a>
-        <a href="https://vscode.dev/"><li><i class="fa fa-code" aria-hidden="true"></i> 云ide</li></a>
-        <a href="https://replit.com/~"><li><i class="fa fa-replit" aria-hidden="true"></i> replit</li></a>
-        <a href="https://vercel.com/ryanlq/homepage1~"><li><i class="fa fa-vercel" aria-hidden="true"></i> vercel网页托管</li></a>
-		<a href="https://codepen.io"><li><i class="fa fa-codepen" aria-hidden="true"></i> Codepen</li></a>
-		<a href="https://www.ddnsto.com/app/#/devices"><li><i class="fa fa-codepen" aria-hidden="true"></i> ddnsto</li></a>
-	  
-      <a href="https://stackoverflow.com/"><li><i class="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow</li></a>
-
-    </ul>
-    <h2>视频门户</h2>
-    <ul>
-      <a href="https://youtube.com/"><li><i class="fa fa-youtube" aria-hidden="true"></i> YouTube</li></a>
-      <a href="https://play.spotify.com/browse"><li><i class="fa fa-spotify" aria-hidden="true"></i> Spotify</li></a>
-      <a href="https://music.163.com/"><li><i class="fa fa-music" aria-hidden="true"></i> 网易云音乐</li></a>
-      <a href="https://bilibili.com"><li><i class="fa fa-twitch" aria-hidden="true"></i> 哔哩哔哩</li></a>
-    </ul>
   </div>
+  <script>
+	const wrapper = document.querySelector('.wrapper')
+	let tabs = {}
+	types.forEach(t=>{
+		let h2 = document.createElement('h2')
+		h2.innerText = t
+		let div = document.createElement('div')
+		div.id = t
+		div.appendChild(h2)
+		wrapper.appendChild(div)
+		tabs[t] = div
+	})
+	function generate(href,title,icon,type){
+		let a = document.createElement('a')
+		let li = document.createElement('li')
+		let i = document.createElement('i')
+		a.href = href
+		i.classList = ['fa',icon]
+		i.setAttribute('aria-hidden','true')
+		li.appendChild(i)
+		li.append(title)
+		a.append(li)
+			
+		//a.innerHtml =`<a href="${href}"><li><i class="fa ${icon}" aria-hidden="true"></i> ${title}</li></a>`
+		tabs[type].appendChild(li)
+	}
+	items.forEach(item=>{
+		let {href,title,icon,type} = item
+		generate(href,title,icon,type)
+	})
+  </script>
 </body>
 </html>
